@@ -1,0 +1,15 @@
+@media (min-width: 0px) and (max-width:992px){
+    .header__section .header__rectangle .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu li {
+        padding: 0 20px;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .footer__section .footer__section__area{
+        margin: 35px 25px!important;
+    }
+    section{
+        margin: 64px 30px;
+    }
+    
+}
