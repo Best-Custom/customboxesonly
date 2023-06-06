@@ -25,11 +25,11 @@
             <div class="col-12 p-0">
                 <div class="d-flex justify-content-between">
                     <div class="col-md-6 text-start d-flex">
-                        <p class="header__nav__items__top"><i class="fa-solid fa-envelope" style=""></i>test@gmail.com</p>
-                        <p class="header__nav__items__top"><i class="fa-solid fa-envelope" style="color: #ffdd00;"></i>1233456789</p>
+                        <p class="header__nav__items__top"><img src="asset/images/header__section/header__email.png" alt=""><span> test@gmail.com</span></p>
+                        <p class="header__nav__items__top"><img src="asset/images/header__section/header__phone.png" alt=""><span> 1233456789</span></p>
                     </div>
                     <div class="col-md-6 text-end">
-                        <button class="frame2_button m-3">Get A Quote</button>
+                        <button class="frame2_button m-3"><a href="#">Get A Quote</a></button>
                     </div>
                 </div>
             </div>

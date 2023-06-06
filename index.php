@@ -58,7 +58,7 @@
                                 </div>
                                     <div class="col-6">
                                         <div class="main__menu_section__layouts___buttons d-flex">
-                                            <button class="main__menu_section__layouts___button1 "> <span> Get A Quote</span></button>
+                                            <button class="main__menu_section__layouts___button1 "><a href="#"> <span> Get A Quote</span></a></button>
                                             <button class="main__menu_section__layouts___button1 m-0"><span>View Products</span></button>
                                         </div>
                                     </div>
@@ -139,12 +139,12 @@
 <section class="customized__solution__section">
     <div class="container">
        <div class="row">
-        <div class="col-6 p-0">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-0">
             <div class="customized__solution__image">
-                <img src="asset/images/paper-coffee-bags-mockup.png" alt="" srcset="">
+                <img src="asset/images/paper-coffee-bags-mockup.png" class="img-fluid" alt="" srcset="">
             </div>
         </div>
-        <div class="col-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div class="customized__solution__text">
                 <button class="btn__outline1 m-0"><a href="/contact"><span>VALUES</span></a></button>
                 <h1>Delivering Unmatched Customized Solutions</h1>
@@ -164,86 +164,86 @@
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag">New</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag eco-friendly">Eco Friendly</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag best-selling">Best Selling</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag">New</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag">New</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag eco-friendly">Eco Friendly</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag best-selling">Best Selling</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag">New</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag">New</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag eco-friendly">Eco Friendly</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag best-selling">Best Selling</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
                 <div class="our__range__item">
                     <span class="product__tag">New</span>
-                    <img src="asset/images/our__range_product.png" alt="">
-                    <h4>Cardboard Boxes</h4>
+                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
                 </div>
+                <h4>Cardboard Boxes</h4>
             </div>
        </div>
     </div>
@@ -255,17 +255,122 @@
 <section class="our__forms">
     <div class="container-fluid">
         <div class="row">
-            <ul class="nav nav-tabs justify-content-around" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><span> Home </span></button>
+            <ul class="nav nav-tabs p-0" id="myTab" role="tablist">
+                <li class="nav-item home__bg" width="50%" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><span> Quick Quote </span></button>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><span> Profile </span></button>
+                <li class="nav-item profile__bg" width="50%" role="presentation">
+                    <button class="nav-link sample__kit" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><span> Free Sample Kit </span></button>
                 </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home description</div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">profile desciption</div>
+            <div class="tab-content p-0" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h2>Get a Quick Quote</h2>
+                    <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs. </p>
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control mt-1" placeholder="Type name here"> 
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <label for="name">Your Email</label>
+                                <input type="text" name="email" class="form-control mt-1" placeholder="Type here"> 
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <label for="name">Your phone Number</label>
+                                <input type="text" name="phone" class="form-control mt-1" placeholder="Type here"> 
+                            </div>
+                        </div>
+                        <div class="form-group row mt-3">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 row">
+                                <div class="our__forms__size" style="width:70%">
+                                    <label for="name">Size</label>
+                                    <input type="text" name="name" class="form-control mt-1" placeholder="L*W*H"> 
+                                </div>
+                                <div class="our__forms__unit" style="width:30%">
+                                    <label for="scale">Scale</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>in</option>
+                                        <option value="1">mm</option>
+                                        <option value="2">cm</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <label for="name">Quantity</label>
+                                <input type="text" name="quantity" class="form-control mt-1" placeholder="Type here"> 
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <label for="name">Product Type</label>
+                                <input type="text" name="phone" class="form-control mt-1" placeholder="Type here"> 
+                            </div>
+                        </div> 
+                        <div class="form-group row mt-3">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 row">
+                                <div class="our__forms__size text-center">
+                                <label for="name ">Upload image (optional)</label>
+                                    <div class="drop-zone mt-1">
+                                        <span class="drop-zone__prompt"><img src="asset/images/our__forms/our__form__file.png" alt=""><p class="mt-3">Drop file here or click to upload</p></span>
+                                        <input type="file" name="myFile" class="drop-zone__input">
+                                    </div>
+                                    <script src="./src/main.js"></script>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-=8 col-lg-8">
+                                <label for="name">Description</label>
+                                <textarea type="text" name="description" class="form-control mt-1" placeholder=" here"> </textarea>
+                            </div>
+                        </div> 
+                        <div class="row justify-content-end">
+                            <button class="btn__layout1">
+                                <a href="#">
+                                    <span>GET ME THE QUOTE</span> 
+                                    <img src="asset/images/our__forms/our__forms__vector.png" alt="">
+                                </a>   
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h2>Get a Free Sample kit</h2>
+                    <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs.  </p>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <form class="our__form__sample__kit__area">
+                                <div class="form-group row">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" name="name" class="form-control mt-1" placeholder="Type name here"> 
+                                </div>
+                                <div class="form-group row">
+                                        <label for="name">Company Name</label>
+                                        <input type="text" name="name" class="form-control mt-1" placeholder="Type here"> 
+                                </div>
+                                <div class="form-group row">
+                                        <label for="name">Email</label>
+                                        <input type="text" name="name" class="form-control mt-1" placeholder="Type here"> 
+                                </div>
+                                <div class="form-group row">
+                                        <label for="name">Address</label>
+                                        <input type="text" name="name" class="form-control mt-1" placeholder="Type here"> 
+                                </div>
+                                <div class="row justify-content-end">
+                                    <button class="btn__layout1">
+                                        <a href="#">
+                                            <span>GET ME THE QUOTE</span> 
+                                            <img src="asset/images/our__forms/our__form__sample__kit__vector.png" alt="">
+                                        </a>   
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                            <div class="our__form__sample__kit__image">
+                                <img src="asset/images/our__forms/our__form__sample__kit__bg.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -341,7 +446,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="finish__style__area">
-                    <img class="img-fluid" src="asset/images/finish__style/finish__style__product1.png" alt="">
+                    <img class="img-fluid" src="asset/images/finish__style/finish__style__product1.png" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-md-8">
@@ -351,7 +456,7 @@
                             <h2>Gold Foil</h2>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="asset/images/finish__style/finish__style_product2.png" alt="">
+                            <img class="img-fluid" src="asset/images/finish__style/finish__style_product2.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -361,7 +466,7 @@
                             <h2>Debossing</h2>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="asset/images/finish__style/finish__style__product3.png" alt="">
+                            <img class="img-fluid" src="asset/images/finish__style/finish__style__product3.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
