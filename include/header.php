@@ -29,7 +29,9 @@
                         <p class="header__nav__items__top"><img src="asset/images/header__section/header__phone.png" alt=""><span> 1233456789</span></p>
                     </div>
                     <div class="col-md-6 text-end">
-                        <button class="frame2_button m-3"><a href="#">Get A Quote</a></button>
+                    <a href="#">    
+                        <button class="frame2_button m-3">Get A Quote</button>
+                    </a>
                     </div>
                 </div>
             </div>

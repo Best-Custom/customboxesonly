@@ -7,9 +7,9 @@
 <section class="container">
     <div class="main__menu__section">
             <div class="row">
-                <div class="col-6 p-0">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-0">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
+                            <div class="carousel-indicators m-0">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -41,25 +41,26 @@
                                     <button class="main__menu_section__button1 "><a href="#"> <span> Get A Quote</span></a></button>
                                     <button class="main__menu_section__button2 btn success"><a href="#"> <span>View Products</span></a></button>
                                     
-                                    <div class="main__menu_section__ellipse p-3">
+                                    <div class="main__menu_section__ellipse">
                                         <span>Trusted by 1,000s of customers </span>
                                         <span class="main__menu_section__ellipse__images">
-                                            <img src="asset/images/Ellipse1.png" alt="" srcset="">
-                                            <img src="asset/images/Ellipse2.png" alt="" srcset="">
-                                            <img src="asset/images/Ellipse3.png" alt="" srcset="">
-                                            <img src="asset/images/Ellipse4.png" alt="" srcset="">
+                                            <img src="asset/images/Ellipse1.png" class="img-fluid" alt="" srcset="">
+                                            <img src="asset/images/Ellipse2.png" class="img-fluid" alt="" srcset="">
+                                            <img src="asset/images/Ellipse3.png" class="img-fluid" alt="" srcset="">
+                                            <img src="asset/images/Ellipse4.png" class="img-fluid" alt="" srcset="">
                                         </span>
                                     </div>
                             </div>
+
                             <div class="main__menu_section__layouts p-3">
                                 <div class="row">
-                                <div class="col-6">
-                                    <img src="asset/images/Subtract.png" alt="" srcset="">
-                                </div>
-                                    <div class="col-6">
+                                    <div class="main__menu__subtract col-md-0 col-lg-6">
+                                        <img src="asset/images/Subtract.png" class="img-fluid" alt="" srcset="">
+                                    </div>
+                                    <div class="col-md-12 col-lg-6 p-0">
                                         <div class="main__menu_section__layouts___buttons d-flex">
-                                            <button class="main__menu_section__layouts___button1 "><a href="#"> <span> Get A Quote</span></a></button>
-                                            <button class="main__menu_section__layouts___button1 m-0"><span>View Products</span></button>
+                                            <button class="main__menu_section__layouts___button1 "><span>+1234 5679338</span></button>
+                                            <button class="main__menu_section__layouts___button1 m-0"><span>contact@cbo.com</span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +70,7 @@
                                 
                     </div>
                 </div>
-                <div class="col-6 p-0">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-0">
                     <div class="main__menu__right__area">
                         <img src="asset/images/main_menu_product_image.png" class="img-fluid" alt="">
                     </div>
@@ -139,12 +140,12 @@
 <section class="customized__solution__section">
     <div class="container">
        <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-0">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 p-0">
             <div class="customized__solution__image">
                 <img src="asset/images/paper-coffee-bags-mockup.png" class="img-fluid" alt="" srcset="">
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
             <div class="customized__solution__text">
                 <button class="btn__outline1 m-0"><a href="/contact"><span>VALUES</span></a></button>
                 <h1>Delivering Unmatched Customized Solutions</h1>
