@@ -310,7 +310,7 @@ border-radius: 24px;
     position: absolute;
     right: -194px;
     bottom: -119px;
-    left: 324px;
+    left: 482px;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -447,14 +447,15 @@ margin-top: 24px;
 
 .customized__solution__section {
     
-    background-image: url('../images/customized_solution_bg.png');
+    background: #E0E3F0;
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
     border-radius: 64px;
 }
 .customized__solution__section .customized__solution__image{
-    margin: 39px 50px;
+    vertical-align: middle;
+    padding: 39px 0;
 
 }
 .customized__solution__section .btn__outline1{
@@ -471,7 +472,11 @@ margin-top: 24px;
 }
 
 .customized__solution__section .customized__solution__text{
-    margin: 66px 40px;
+    padding: 66px 40px;
+}
+.customized__solution__section .customized__solution__area{
+    width: 100%;
+    text-align: center;
 }
 .customized__solution__section .customized__solution__text a{
     text-decoration: none !important;
@@ -534,7 +539,12 @@ margin-top: 24px;
 .our__range__section .our__range__item .best-selling{
     background: #F0A500;;
 }
-
+.eco__friendly__heading__description{
+    width: 60%;
+}
+.eco__friendly__heading__btn{
+    width: 40%;
+}
 
 /* ---------------------------- */
      /* Our range Code ends here */
@@ -592,7 +602,7 @@ margin-top: 24px;
     font-weight: 700;
     font-size: 32px;
     text-align: center;
-    margin: 27px 230px 27px 36px;
+    padding: 27px 230px 27px 36px;
     color: #FF971A; 
 }
 .our__forms .nav .nav-item span{
@@ -637,6 +647,9 @@ input[type="text"]::-webkit-input-placeholder {
 .our__forms .tab-content .form-group input ::placeholder{
     color: white;
 }
+.our__forms .tab-content .form-group textarea ::placeholder{
+    color: white;
+}
 .our__forms .form-group label{
     color: white;
     font-style: normal;
@@ -659,7 +672,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .our__forms .tab-content .btn__layout1 span{
-    margin-right: 140px;
+    /* margin-right: 140px; */
 }
 
 
@@ -711,12 +724,12 @@ input[type="text"]::-webkit-input-placeholder {
   }
 
 
-  .our__forms .tab-content #profile h2{
+  /* .our__forms .tab-content #profile h2{
     color: var(--bs-blue-color-normal);
     font-style: normal;
     font-size: 45px;
     line-height: 56px;
-  }
+  } */
 
 .our__forms .tab-content #profile p{
     font-style: normal;
@@ -909,6 +922,7 @@ border-radius: 16px;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
+    color: #1C2E44;
     text-align: justify;
 }
 

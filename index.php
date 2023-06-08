@@ -88,7 +88,7 @@
                             
                             <div class="owl-stage-outer">
                             
-                            <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.25s ease 0s; width: 3334px;">
+                            <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.25s ease 0s;">
                                 
                                 <div class="owl-item cloned" style="margin-right: 10px;">
                                         <div class="item">
@@ -141,15 +141,19 @@
     <div class="container">
        <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 p-0">
-            <div class="customized__solution__image">
-                <img src="asset/images/paper-coffee-bags-mockup.png" class="img-fluid" alt="" srcset="">
+            <div class="d-table customized__solution__area">
+                <div class="customized__solution__image d-table-cell">
+                    <img src="asset/images/paper-coffee-bags-mockup.png" class="img-fluid" alt="" srcset="">
+                </div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
-            <div class="customized__solution__text">
-                <button class="btn__outline1 m-0"><a href="/contact"><span>VALUES</span></a></button>
-                <h1>Delivering Unmatched Customized Solutions</h1>
-                <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs. As your trusted partner, we deliver the best-customized printed box service that sets your brand apart from the rest.</p>
+            <div class="d-table">
+                <div class="customized__solution__text d-table-cell">
+                    <button class="btn__outline1 m-0"><a href="/contact"><span>VALUES</span></a></button>
+                    <h1>Delivering Unmatched Customized Solutions</h1>
+                    <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs. As your trusted partner, we deliver the best-customized printed box service that sets your brand apart from the rest.</p>
+                </div>
             </div>
         </div>
        </div>
@@ -320,10 +324,10 @@
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-=8 col-lg-8">
                                 <label for="name">Description</label>
-                                <textarea type="text" name="description" class="form-control mt-1" placeholder=" here"> </textarea>
+                                <textarea type="text" name="description" class="form-control mt-1" placeholder="Type here"> </textarea>
                             </div>
                         </div> 
-                        <div class="row justify-content-end">
+                        <div class="row btn__layout1__positioning">
                             <button class="btn__layout1">
                                 <a href="#">
                                     <span>GET ME THE QUOTE</span> 
@@ -337,7 +341,7 @@
                 <h2>Get a Free Sample kit</h2>
                     <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs.  </p>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                             <form class="our__form__sample__kit__area">
                                 <div class="form-group row">
                                         <label for="name">Your Name</label>
@@ -355,7 +359,7 @@
                                         <label for="name">Address</label>
                                         <input type="text" name="name" class="form-control mt-1" placeholder="Type here"> 
                                 </div>
-                                <div class="row justify-content-end">
+                                <div class="row btn__layout1__positioning">
                                     <button class="btn__layout1">
                                         <a href="#">
                                             <span>GET ME THE QUOTE</span> 
@@ -365,9 +369,9 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <div class="our__form__sample__kit__image">
-                                <img src="asset/images/our__forms/our__form__sample__kit__bg.png" alt="">
+                                <img src="asset/images/our__forms/our__form__sample__kit__bg.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -399,7 +403,7 @@
                 <div class="col-3 slider__spacing">
                     <div class="choose__us__slider">
                         <div class="choose__us__slider__img">
-                            <img src="asset/images/our__range_product.png" alt="">
+                            <img src="asset/images/our__range_product.png" class="img-fluid" alt="">
                         </div>
                         <h2>Free Shipping</h2>
                         <p>When it comes to printing, we don't compromise on quality. Our advanced digital and inkjet printing technologies ensure exceptional printing results that make your packaging stand out. Trust us to deliver visually stunning boxes that captivate your audience.</p>
@@ -408,7 +412,7 @@
                 <div class="col-3 slider__spacing">
                     <div class="choose__us__slider">
                         <div class="choose__us__slider__img">
-                            <img src="asset/images/our__range_product.png" alt="">
+                            <img src="asset/images/our__range_product.png" class="img-fluid" alt="">
                         </div>
                         <h2>Free Shipping</h2>
                         <p>When it comes to printing, we don't compromise on quality. Our advanced digital and inkjet printing technologies ensure exceptional printing results that make your packaging stand out. Trust us to deliver visually stunning boxes that captivate your audience.</p>
@@ -417,7 +421,7 @@
                 <div class="col-3 slider__spacing">
                     <div class="choose__us__slider">
                         <div class="choose__us__slider__img">
-                            <img src="asset/images/our__range_product.png" alt="">
+                            <img src="asset/images/our__range_product.png" class="img-fluid" alt="">
                         </div>
                         <h2>Free Shipping</h2>
                         <p>When it comes to printing, we don't compromise on quality. Our advanced digital and inkjet printing technologies ensure exceptional printing results that make your packaging stand out. Trust us to deliver visually stunning boxes that captivate your audience.</p>
@@ -447,7 +451,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="finish__style__area">
-                    <img class="img-fluid" src="asset/images/finish__style/finish__style__product1.png" class="img-fluid" alt="">
+                    <img class="img-fluid" src="asset/images/finish__style/finish__style__product1.png" alt="">
                 </div>
             </div>
             <div class="col-md-8">
@@ -457,7 +461,7 @@
                             <h2>Gold Foil</h2>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="asset/images/finish__style/finish__style_product2.png" class="img-fluid" alt="">
+                            <img class="img-fluid" src="asset/images/finish__style/finish__style_product2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -467,7 +471,7 @@
                             <h2>Debossing</h2>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="asset/images/finish__style/finish__style__product3.png" class="img-fluid" alt="">
+                            <img class="img-fluid" src="asset/images/finish__style/finish__style__product3.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -490,10 +494,10 @@
                 <div class="eco__friendly__heading__description">
                     <p>At CBO, we are committed to offering eco-friendly packaging options that help reduce environmental impact. </p>
                 </div>
-                <div class="eco__friendly__heading__btn text-right">
+                <div class="eco__friendly__heading__btn text-end">
                     <button class="btn__layout1">
                          <a href="#">
-                             <span>Shop Eco Friendly <img src="asset/images/eco__friendly__section/eco__friendly__vector.png" alt=""></span>  
+                             <span>Shop Eco Friendly <img src="asset/images/eco__friendly__section/eco__friendly__vector.png" class="img-fluid" alt=""></span>  
                          </a>
                     </button>
                 </div>
@@ -502,32 +506,32 @@
         <div class="row">
             <div class="col-md-6 col-xs-12 col-sm-12 col-lg-6">
                 <div class="eco__friendly__styles row">
-                    <div class="col-md-6">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         <div class="eco__friendly__shape">
-                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" alt="">
+                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" class="img-fluid" alt="">
                         </div>
                         <h2>Recyclable Materials</h2>
                         <p>The little rotter bevvy I gormless mush golly gosh cras.</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         <div class="eco__friendly__shape">
-                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" alt="">
+                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" class="img-fluid" alt="">
                         </div>
                         <h2>Recyclable Materials</h2>
                         <p>The little rotter bevvy I gormless mush golly gosh cras.</p>
                     </div>
                 </div>
                 <div class="eco__friendly__styles row">
-                    <div class="col-md-6">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         <div class="eco__friendly__shape">
-                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" alt="">
+                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" class="img-fluid" alt="">
                         </div>
                         <h2>Recyclable Materials</h2>
                         <p>The little rotter bevvy I gormless mush golly gosh cras.</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         <div class="eco__friendly__shape">
-                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" alt="">
+                            <img src="asset/images/eco__friendly__section/eco__friendly_vector2.png" class="img-fluid" alt="">
                         </div>
                         <h2>Recyclable Materials</h2>
                         <p>The little rotter bevvy I gormless mush golly gosh cras.</p>
@@ -577,7 +581,7 @@
                     <div class="row our__review__people">
                         <div class="d-flex">
                             <div class="our__review__image">
-                                <img src="asset/images/our__review/people1.png" alt="">
+                                <img src="asset/images/our__review/people1.png" class="img-fluid" alt="">
                             </div>
                             <div class="our__review__text">
                                 <h4>Sabo Masties</h4>
@@ -601,7 +605,7 @@
                     <div class="row our__review__people">
                         <div class="d-flex">
                             <div class="our__review__image">
-                                <img src="asset/images/our__review/people1.png" alt="">
+                                <img src="asset/images/our__review/people1.png" class="img-fluid" alt="">
                             </div>
                             <div class="our__review__text">
                                 <h4>Sabo Masties</h4>
@@ -625,7 +629,7 @@
                     <div class="row our__review__people">
                         <div class="d-flex">
                             <div class="our__review__image">
-                                <img src="asset/images/our__review/people1.png" alt="">
+                                <img src="asset/images/our__review/people1.png" class="img-fluid" alt="">
                             </div>
                             <div class="our__review__text">
                                 <h4>Sabo Masties</h4>
@@ -649,7 +653,7 @@
                     <div class="row our__review__people">
                         <div class="d-flex">
                             <div class="our__review__image">
-                                <img src="asset/images/our__review/people1.png" alt="">
+                                <img src="asset/images/our__review/people1.png" class="img-fluid" alt="">
                             </div>
                             <div class="our__review__text">
                                 <h4>Sabo Masties</h4>

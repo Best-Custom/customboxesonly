@@ -75,7 +75,7 @@
                 loop:true,
                 margin:45,
                 autoplay:true,
-                autoplayTimeout:1000,
+                autoplayTimeout:10000,
                 autoplayHoverPause:true
 
             });
