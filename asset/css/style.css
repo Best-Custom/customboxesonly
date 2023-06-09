@@ -618,7 +618,7 @@ text-align: center;
     border: none;
 }
 .our__forms .tab-content h2,p{
-    color: var(--bs-blue-surface-white);
+    color: var(--bs-blue-color-normal);
 }
 .our__forms .tab-content .tab-pane{
     padding: 25px;
@@ -795,9 +795,10 @@ input[type="text"]::-webkit-input-placeholder {
     background: var(--bs-orange-surface-normal-active);
     margin-right: 0;
     margin-left: 0;
+    padding: 64px 0px 64px 96px;
 }
 .choose__us__section .choose__us__area{
-    margin: 64px 94px;
+    /* margin: 64px 94px; */
 }
 .choose__us__section .choose__us__area h1{
     font-weight: 700;
@@ -805,7 +806,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 }
 .choose__us__section .choose__us__slider__area{
-    padding: 174px 0 114px 97px;
+    /* padding: 174px 0 114px 97px; */
 }
 
 .choose__us__section .choose__us__slider__area .choose__us__slider {
@@ -867,26 +868,25 @@ border-radius: 16px;
 }
 
 .finish__style__section .finish__style__area{
-    background: url('../images/finish__style/finish__style__rectangel1.png');
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: cover;
-    /* height: 512px; */
-}
-.finish__style__section .finish__style__area img{
-    margin: 150px 43px 0 30px;    
-}
-.finish__style__section .finish__style__area__horizental{
-    background: url(../images/finish__style/finish__style__rectangel2.png);
+    background: var(--bs-blue-color-dark);
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
     border-radius: 24px;
-    height: 248px;
+}
+.finish__style__section .finish__style__area img{
+    /* padding: 150px 0px 0 0px;     */
+}
+.finish__style__section .finish__style__area__horizental{
+    background: var(--bs-blue-color-dark);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 24px;
     margin-bottom: 16px;
 }
 .finish__style__section .finish__style__area__horizental h2{
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-left: 24px;
     color: var(--bs-blue-surface-white);
 }

@@ -270,8 +270,8 @@
             </ul>
             <div class="tab-content p-0" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <h2>Get a Quick Quote</h2>
-                    <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs. </p>
+                    <h2 class="text-white">Get a Quick Quote</h2>
+                    <p class="text-white">Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs. </p>
                     <form>
                         <div class="form-group row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -316,7 +316,7 @@
                                 <div class="our__forms__size text-center">
                                 <label for="name ">Upload image (optional)</label>
                                     <div class="drop-zone mt-1">
-                                        <span class="drop-zone__prompt"><img src="asset/images/our__forms/our__form__file.png" alt=""><p class="mt-3">Drop file here or click to upload</p></span>
+                                        <span class="drop-zone__prompt"><img src="asset/images/our__forms/our__form__file.png" alt=""><p class="mt-3 text-white">Drop file here or click to upload</p></span>
                                         <input type="file" name="myFile" class="drop-zone__input">
                                     </div>
                                     <script src="./src/main.js"></script>
@@ -393,14 +393,14 @@
             </div>
         </div>
         <div class="row choose__us__slider__area">
-            <div class="col-3">
+            <div class="col-3 choose__us__slider__text">
                 <div class="choose__us__area__text">
                     <p>Trust us to elevate your packaging and make your brand shine. </p>
                 </div>
             </div>
             <div class="col-9">
                 <div class="row">
-                <div class="col-3 slider__spacing">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 slider__spacing m-0">
                     <div class="choose__us__slider">
                         <div class="choose__us__slider__img">
                             <img src="asset/images/our__range_product.png" class="img-fluid" alt="">
@@ -409,7 +409,7 @@
                         <p>When it comes to printing, we don't compromise on quality. Our advanced digital and inkjet printing technologies ensure exceptional printing results that make your packaging stand out. Trust us to deliver visually stunning boxes that captivate your audience.</p>
                     </div>
                 </div>
-                <div class="col-3 slider__spacing">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 slider__spacing m-0">
                     <div class="choose__us__slider">
                         <div class="choose__us__slider__img">
                             <img src="asset/images/our__range_product.png" class="img-fluid" alt="">
@@ -418,7 +418,7 @@
                         <p>When it comes to printing, we don't compromise on quality. Our advanced digital and inkjet printing technologies ensure exceptional printing results that make your packaging stand out. Trust us to deliver visually stunning boxes that captivate your audience.</p>
                     </div>
                 </div>
-                <div class="col-3 slider__spacing">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 slider__spacing m-0">
                     <div class="choose__us__slider">
                         <div class="choose__us__slider__img">
                             <img src="asset/images/our__range_product.png" class="img-fluid" alt="">
@@ -441,37 +441,40 @@
 <section class="finish__style__section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <h1>Elite Finishes</h1>
             </div>
-            <div class="col-md-6 text-end">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-end">
                 <button class="btn__layout1">Explore More</button>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="finish__style__area">
-                    <img class="img-fluid" src="asset/images/finish__style/finish__style__product1.png" alt="">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-3">
+                <div class="finish__style__area row h-100">
+                      <div class="d-table-cell" style="vertical-align:middle">
+                            <h2 class="finish__style__title mt-3 text-white">Holographic Foiling</h2>
+                        </div>
+                    <img class="img-fluid w-100" src="asset/images/finish__style/finish__style__product1.png" alt="">
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 mt-3">
                 <div class="finish__style__area__horizental">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2>Gold Foil</h2>
+                    <div class="d-table w-100">
+                        <div class="d-table-cell" style="vertical-align:middle">
+                            <h2 class="finish__style__title mt-xs-0 mt-sm-0 mt-md-0">Gold Foil</h2>
                         </div>
-                        <div class="col-md-6">
-                            <img class="img-fluid" src="asset/images/finish__style/finish__style_product2.png" alt="">
+                        <div class="d-table-cell" style="vertical-align:middle">
+                            <img class="img-fluid w-100" src="asset/images/finish__style/finish__style_product2.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="finish__style__area__horizental">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2>Debossing</h2>
+                <div class="finish__style__area__horizental mb-0">
+                    <div class="d-table w-100">
+                        <div class="d-table-cell" style="vertical-align:middle">
+                            <h2 class="finish__style__title mt-xs-0 mt-sm-0 mt-md-0">Debossing</h2>
                         </div>
-                        <div class="col-md-6">
-                            <img class="img-fluid" src="asset/images/finish__style/finish__style__product3.png" alt="">
+                        <div class="d-table-cell" style="vertical-align:middle">
+                            <img class="img-fluid w-100" src="asset/images/finish__style/finish__style__product3.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -489,7 +492,7 @@
 <section class="eco__friendly__section">
     <div class="container">
         <div class="row">
-            <h2>Sustainable Packaging Solutions</h2>
+            <h2 class="eco__friendly__h2">Sustainable Packaging Solutions</h2>
             <div class="eco__friendly__heading__area d-flex justify-content-between">
                 <div class="eco__friendly__heading__description">
                     <p>At CBO, we are committed to offering eco-friendly packaging options that help reduce environmental impact. </p>
