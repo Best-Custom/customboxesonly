@@ -22,7 +22,7 @@
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <h1>Premium Finishes </h1>
                 <p>we are truly passionate about creating and printing beautiful luxury packaging so whatever your design idea, complex or simple we want to help you and with so many different paper boards and print finishes why not try something new, we can help and advise you.
-it’s our aim to make you standout, to make you be remembered; all that is possible with our bespoke luxury printed packaging. each order is given due care and attention from our craftsmen to ensure superior quality, expert finish and maximum impact.</p>
+        it’s our aim to make you standout, to make you be remembered; all that is possible with our bespoke luxury printed packaging. each order is given due care and attention from our craftsmen to ensure superior quality, expert finish and maximum impact.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <img src="asset/images/main__menu__image.png" class="img-fluid" alt="main__menu_image">
@@ -36,7 +36,27 @@ it’s our aim to make you standout, to make you be remembered; all that is poss
 <section class="packaging__choose__us">
         <div class="container">
             <div class="row">
-                <h1>Why Choose Us for Premium Packaging?</h1>
+                <div class="packaging__choose__us__area">
+                    <h1>Why Choose Us for Premium Packaging?</h1>
+                    <div class="row">
+                    <div class="packaging__choose__us_images col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img src="asset/images/premium__packaging/packaging__image1.png" class="img-fluid" alt="">
+                        <h6>Premium Print options</h6>
+                    </div>
+                    <div class="packaging__choose__us_images col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img src="asset/images/premium__packaging/packaging__image2.png" class="img-fluid" alt="">
+                        <h6>Premium Print options</h6>
+                    </div>
+                    <div class="packaging__choose__us_images col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img src="asset/images/premium__packaging/packaging__image1.png" class="img-fluid" alt="">
+                        <h6>Premium Print options</h6>
+                    </div>
+                    <div class="packaging__choose__us_images col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <img src="asset/images/premium__packaging/packaging__image2.png" class="img-fluid" alt="">
+                        <h6>Premium Print options</h6>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
 </section>

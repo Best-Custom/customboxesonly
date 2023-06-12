@@ -1045,6 +1045,10 @@ height: 75px;
     font-weight: 400;
     font-size: 12px;
 }
+.our__review .full__review__page{
+    border-bottom: 4px solid var(--bs-blue-color-normal);
+    width: 22rem;
+}
 
 /* ------------------------------------ */
 /* our__review  section Code ends here */
@@ -1208,13 +1212,40 @@ height: 75px;
     background-size: cover;
     margin-right: 0px;
     margin-left: 0px;
-    height: 446px;
-
-
+    padding: 64px 95px;
+    
+}
+.packaging__choose__us .packaging__choose__us__area{
+    
+}
+.packaging__choose__us .packaging__choose__us__area .packaging__choose__us_images{
+    padding: 12px;
+}
+.packaging__choose__us .packaging__choose__us__area .packaging__choose__us_images h6{
+    color: var(--bs-blue-surface-white);
+    margin-top: 8px;
+}
+.packaging__choose__us h1{
+    color: var(--bs-blue-surface-white);
 }
 
 /* ---------------------------------------------- */
 /* packaging__choose__us Code edns here */
+/* ----------------------------------------------*/
+/* ---------------------------------------------- */
+/* Reviews__section Code starts here */
+/* ----------------------------------------------*/
+.partner__section h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    /* identical to box height */
+
+text-align: center;
+}
+/* ---------------------------------------------- */
+/* Reviews__section Code ends here */
 /* ----------------------------------------------*/
 
 
