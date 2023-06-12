@@ -221,7 +221,7 @@ border-radius: 24px;
     color: var(--bs-blue-color-normal);
 }
 .header__nav__items__top{
-    margin: 24px 36px 24px 0;
+    margin: 1rem;
 }
 .header__items__area__links{
     font-family: 'Cabinet Grotesk';
@@ -1008,7 +1008,6 @@ height: 75px;
 .our__review .our__review__items{
     padding: 30px;
     margin-top:40px;
-    margin-right: 30px;
     background:  var(--bs-orange-surface-light);
     border-radius: 28px;
   
@@ -1095,6 +1094,129 @@ height: 75px;
 /* ------------------------------------ */
 /* contact__us section Code ends here */
 /* ----------------------------------*/
+/* --------------------------------------- */
+/* our__journey section Code starts here */
+/* -------------------------------------*/
+
+.our__journey__section{
+    background: url(../images/portfolio/portolio__journey__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 40px;
+}
+.our__journey__section  h1{
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+.our__journey__section p{
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+.our__journey__section .our__journey__item__area p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.our__journey__section .our__journey__item__area{
+    padding: 0 180px;
+    text-align: -webkit-center;
+}
+.our__journey__section .our__journey__item__area .our__journey__item{
+    background-image: url(../images/our__journey/our__journey__item__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 16px;
+    height: 80px;
+    width: 80px;
+    margin-top: 66px;
+    padding: 17px;
+}
+.our__journey__section .our__journey__item__area  p{
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+/* our__journey section Code ends here */
+/* -------------------------------------*/
+/* ---------------------------------------------- */
+/* premium__finishes__section Code starts here */
+/* ----------------------------------------------*/
+
+.premium__finishes__section{
+    margin: 64px 95px;
+}
+.premium__finishes__section .finish__style__area{
+    background: url(../images/premium__finishes/metallic__foiling.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 28px;
+    width: 612px;
+    height: 612px;
+}
+
+/* ---------------------------------------------- */
+/* premium__finishes__section Code ends here */
+/* ----------------------------------------------*/
+
+
+/* ---------------------------------------------- */
+/* main__menu__text Code starts here */
+/* ----------------------------------------------*/
+
+
+.main__menu__text h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.main__menu__text p{
+
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* ---------------------------------------------- */
+/* main__menu__text Code starts here */
+/* ----------------------------------------------*/
+/* ---------------------------------------------- */
+/* packaging__choose__us Code starts here */
+/* ----------------------------------------------*/
+
+.packaging__choose__us{
+    background: url(../images/premium__packaging/premium__packaging.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 446px;
+
+
+}
+
+/* ---------------------------------------------- */
+/* packaging__choose__us Code edns here */
+/* ----------------------------------------------*/
+
 
 /* -------------------------------- */
 /* ---------------------------- */
@@ -1159,6 +1281,40 @@ height: 75px;
 
 }
 
+/* ----------------------------------- */
+  /* portfolio__section code starts here */
+/* ------------------------------------*/
+
+.portfolio__section{
+    background: url(../images/portfolio/portfolio__banner__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 64px;
+    padding: 138px;
+}
+.portfolio__section .portfolio__section__area{
+    color: white !important;
+}
+.portfolio__section .portfolio__section__area h1{
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 97.5%;
+    text-align: center;
+}
+.portfolio__section .portfolio__section__area p{
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+/* ----------------------------------- */
+  /* portfolio__section code ends here */
+/* ------------------------------------*/
 /* ---------------------------- */
   /* Footer Code ends here */
 /* ----------------------------*/

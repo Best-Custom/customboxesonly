@@ -86,49 +86,48 @@
         <div class="partner__section__image">
                 <div class="owl-carousel owl-theme owl-loaded owl-drag">
                             
-                            <div class="owl-stage-outer">
-                            
-                            <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.25s ease 0s;">
-                                
-                                <div class="owl-item cloned" style="margin-right: 10px;">
-                                        <div class="item">
-                                            <img src="asset/images/partners/GOOGLE.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
-                                        </div>
+                            <div class="owl-stage-outer">            
+                                <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.25s ease 0s;">
+                                    
+                                    <div class="owl-item cloned" style="margin-right: 10px;">
+                                            <div class="item">
+                                                <img src="asset/images/partners/GOOGLE.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="margin-right: 15px;">
+                                            <div class="item">
+                                                <img src="asset/images/partners/IBM.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="margin-right: 45px;">
+                                            <div class="item">
+                                                <img src="asset/images/partners/KROM.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="margin-right: 45px;">
+                                            <div class="item">
+                                                <img src="asset/images/partners/LAB24.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="margin-right: 45px;">
+                                            <div class="item">
+                                                <img src="asset/images/partners/OAT_ZARRELLA.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="margin-right: 45px;">
+                                            <div class="item">
+                                                <img src="asset/images/partners/OREGON_STATE.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="margin-right: 45px;">
+                                            <div class="item">
+                                                <img src="asset/images/partners/PRF.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
+                                            </div>
+                                    </div>
                                 </div>
-                                <div class="owl-item cloned" style="margin-right: 15px;">
-                                        <div class="item">
-                                            <img src="asset/images/partners/IBM.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
-                                        </div>
-                                </div>
-                                <div class="owl-item cloned" style="margin-right: 45px;">
-                                        <div class="item">
-                                            <img src="asset/images/partners/KROM.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
-                                        </div>
-                                </div>
-                                <div class="owl-item cloned" style="margin-right: 45px;">
-                                        <div class="item">
-                                            <img src="asset/images/partners/LAB24.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
-                                        </div>
-                                </div>
-                                <div class="owl-item cloned" style="margin-right: 45px;">
-                                        <div class="item">
-                                            <img src="asset/images/partners/OAT_ZARRELLA.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
-                                        </div>
-                                </div>
-                                <div class="owl-item cloned" style="margin-right: 45px;">
-                                        <div class="item">
-                                            <img src="asset/images/partners/OREGON_STATE.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
-                                        </div>
-                                </div>
-                                <div class="owl-item cloned" style="margin-right: 45px;">
-                                        <div class="item">
-                                            <img src="asset/images/partners/PRF.png" width="151px" height="60px" class="img-fluid" alt="" srcset="">
-                                        </div>
-                                </div>
-                            </div>
                         </div>
-                        <!-- <div class="owl-nav disabled">
-                        </div> -->
+                        <div class="owl-nav disabled">
+                        </div>
                     
                 </div>
         </div>
@@ -571,7 +570,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our__review__items">
                     <div class="row">
                         <img src="asset/images/our__review/star.png" class="img-fluid" alt="">
@@ -595,7 +594,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our__review__items our__review__bg">
                     <div class="row">
                         <img src="asset/images/our__review/star.png" class="img-fluid" alt="">
@@ -619,7 +618,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our__review__items">
                     <div class="row">
                         <img src="asset/images/our__review/star.png" class="img-fluid" alt="">
@@ -643,7 +642,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our__review__items our__review__bg">
                     <div class="row">
                         <img src="asset/images/our__review/star.png" class="img-fluid" alt="">

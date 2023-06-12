@@ -73,6 +73,66 @@
     .our__forms .tab-content .btn__layout1 span {
         margin-right: 0px;
     }
+    .portfolio__section {
+        padding: 38px;
+    }
+    .portfolio__section .portfolio__section__area h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 97.5%;
+    }
+    .portfolio__section .portfolio__section__area p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .our__range__section h1{    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .our__journey__section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        
+    }
+    .our__journey__section p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+        
+    }
+    .our__journey__section .our__journey__item__area{
+        padding: 0px;
+    }
+    .frame2_button{
+        width: 88px;
+        height: 30px;
+        font-size: 12px;
+        margin: 1rem 1rem 1rem 0px;
+    }
+    .header__section .header__nav__items__top span{
+        font-size: 12px;
+    }
+    .main__menu__text h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .main__menu__text p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+    }
 }
 
 
@@ -120,6 +180,20 @@
     }
     .eco__friendly__section {
         padding: 30px;
+    }
+    .portfolio__section {
+        padding: 86px;
+    }
+    .portfolio__section .portfolio__section__area h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 97.5%;
+    }
+    .portfolio__section .portfolio__section__area p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
     }
 }
 
@@ -539,5 +613,10 @@
 @media (max-width: 992px){
     .eco__friendly__heading__btn{
         display: none !important;
+    }
+}
+@media (min-width: 0px) and (max-width:576px){
+    .eco__friendly__section .eco__friendly__styles{
+        margin-top: 0px;
     }
 }
