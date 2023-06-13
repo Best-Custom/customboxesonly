@@ -195,6 +195,19 @@
         line-height: 25px;
         text-align: center;
     }
+    .main__menu__text h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 20px;
+    }
+    .main__menu__text p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+    }
 }
 
 
@@ -638,6 +651,64 @@
     .our__review .full__review__page{
         width: 12rem;
     }
+    .choose__us__section .choose__us__area h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        /* identical to box height */
+    }
+    .choose__us__section{
+        padding: 20px 22px 30px 66px;
+
+    }
+    .partner__section .owl-carousel .owl-nav{
+        display: none !important;
+    }
+    .partner__section .owl-carousel .owl-dots{
+        display: none !important;
+    }
+    .main__menu__text h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .main__menu__text p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+    }
+    .environment__friendly__section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .sustainable__full__width__section .sustainable__recycle__area{
+        padding: 42px 160px;
+    }
+    .sustainable__full__width__section .sustainable__recycle__area h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .sustainable__full__width__section .sustainable__recycle__area p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .sustainable__full__width__section .sustainable__recycle__area .sustainable__recycle__item{
+        width: 45px;
+        height: 45px;
+        padding: 9px;
+    }
+    
 }
 @media (max-width: 992px){
     .eco__friendly__heading__btn{

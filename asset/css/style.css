@@ -433,9 +433,15 @@ margin-top: 24px;
 .owl-item {
     width: 151px; margin-right: 45px;
 }
+.partner__section .owl-carousel .owl-nav.disabled{
+    display: none !important;
+}
+.partner__section .owl-carousel .owl-dots.disabled{
+    display: none !important;
+}
 
 /* ---------------------------- */
-  /* Partners style ends here */
+/* Partners style ends here    */
 /* ----------------------------*/
 
 
@@ -469,6 +475,28 @@ margin-top: 24px;
     line-height: 17px;
     letter-spacing: 0.25px;
     text-transform: uppercase;
+}
+.customized__solution__section .sustainable__menu .btn__layout1{
+    background: var(--bs-blue-color-normal);
+    font-family: 'Nunito Sans'!important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--bs-blue-surface-white);
+    line-height: 175%;
+    border-radius: 12px;
+}
+.customized__solution__section .sustainable__menu .btn__layout1 span{
+    color: var(--bs-blue-surface-white);
+}
+
+.sustainable__page__section{
+    background: #8CC63F;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 64px 0px;
+
 }
 
 .customized__solution__section .customized__solution__text{
@@ -683,7 +711,6 @@ input[type="text"]::-webkit-input-placeholder {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: "Quicksand", sans-serif;
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
@@ -1000,6 +1027,17 @@ height: 75px;
     color: var(--bs-blue-surface-white);
   
 }
+
+.owl-theme .owl-dots{
+    text-align: right!important;
+}
+.owl-theme .owl-nav{
+    text-align: left!important;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
 .our__review .btn__layout1 span{
     font-size: 20px;
     line-height: 25px;
@@ -1016,8 +1054,8 @@ height: 75px;
 .our__review__bg{
     background: var(--bs-blue-dark-light)!important;
 }
-.our__review .our__review__items img{
-    width: 8%;
+.our__review .our__review__items .our__review__star img{
+    width: 5% !important;
     margin-right: 2px;
     padding: 0;
 }
@@ -1346,6 +1384,83 @@ text-align: center;
 /* ----------------------------------- */
   /* portfolio__section code ends here */
 /* ------------------------------------*/
+/* --------------------------------------------- */
+  /* environment__friendly__section code starts here */
+/* ------------------------------------------------*/
+
+.environment__friendly__section__area{
+        background: rgba(140, 198, 63, 0.3);
+        background-size: cover;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        width: 294px;
+        padding: 12px;
+        margin-top: 35px;
+}
+.environment__friendly__section__area h2{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+.environment__friendly__section__area p{
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+/* --------------------------------------------- */
+  /* environment__friendly__section code ends here */
+/* ------------------------------------------------*/
+/* --------------------------------------------------- */
+  /* sustainable__full__width__section code starts here */
+/* --------------------------------------------------*/
+
+.sustainable__full__width__section{
+    background: var(--bs-blue-color-normal);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.sustainable__full__width__section .sustainable__recycle__area{
+    padding: 91px 140px;
+}
+.sustainable__full__width__section .sustainable__recycle__area .sustainable__recycle__text{
+    width: 250px;
+    margin-top: 25px;
+}
+.sustainable__full__width__section .sustainable__recycle__text h3{
+    color: var(--bs-blue-surface-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.sustainable__full__width__section .sustainable__recycle__text p{
+    color: var(--bs-blue-surface-white);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sustainable__full__width__section  .sustainable__recycle__item img{
+    background: #8CC63F !important;
+    padding: 14px !important;
+}
+
+/* --------------------------------------------------- */
+  /* sustainable__full__width__section code ends here */
+/* --------------------------------------------------*/
 /* ---------------------------- */
   /* Footer Code ends here */
 /* ----------------------------*/
