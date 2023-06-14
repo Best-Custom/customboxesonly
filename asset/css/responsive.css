@@ -208,6 +208,19 @@
         line-height: 20px;
         text-align: justify;
     }
+    .category__page__section .category__main__menu__area h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 97.5%;
+    }
+    .category__page__section .category__main__menu__area p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+    }
 }
 
 
@@ -708,13 +721,61 @@
         height: 45px;
         padding: 9px;
     }
+    .category__page__section .category__main__menu__area h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 90%;
+    }
+    
+    .category__page__section .category__main__menu__area p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: justify;
+    }
+
+    .category__page__section  .category__main__menu__area.category__main__menu__area .btn__layout1{
+                width: 105px;
+                height: 25px;
+    }
+    .category__page__section  .category__page__heading{
+        padding: 0rem!important;
+    }
+
+    .button__slider .category__page__btn .btn__layout1{
+        width: 89px;
+        height: 28px;  
+    }
+    .button__slider .category__page__btn .btn__layout1 span{
+        font-size: 12px;
+        line-height: 15px;
+    }
     
 }
 @media (max-width: 992px){
     .eco__friendly__heading__btn{
         display: none !important;
     }
+    .toggle__area__section{
+        display: none;
+    }
+    .our__range__width{
+        width: 100%;
+    }
+    .category__descriotion__section{
+        display: none !important;
+    }
 }
+@media (min-width: 992px){
+    .button__slider{
+        display: none !important;
+    }
+   
+}
+
+
 @media (min-width: 0px) and (max-width:576px){
     .eco__friendly__section .eco__friendly__styles{
         margin-top: 0px;

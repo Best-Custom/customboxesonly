@@ -536,13 +536,24 @@ margin-top: 24px;
 /* ---------------------------- */
 /* Our range Code starts here*/
 /* ----------------------------*/
-
-.our__range__section h1{
+    
+.our__range__section button h1{
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
     color: var(--bs-blue-color-normal);
+}
+.our__range__section button{
+    border: #f0f8ff00;
+}
+.our__range__section .toggle__area{
+        border-radius: 32px;
+        background: #E9EBEE;
+        padding: 1rem;
+}
+.our__range__section .toggle__area li{
+    list-style-type: none;
 }
 .our__range__section .our__range__item {
     margin: 8px;
@@ -1460,6 +1471,104 @@ text-align: center;
 
 /* --------------------------------------------------- */
   /* sustainable__full__width__section code ends here */
+/* --------------------------------------------------*/
+/* --------------------------------------------------- */
+  /* Category___page section code starts here */
+/* --------------------------------------------------*/
+.category__page__section{
+    background: url(../images/category__page/category__page__bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 64px;
+}
+
+.category__page__section .category__main__menu__area h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 97%;
+}
+.category__page__section .category__main__menu__area p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.category__page__section .category__main__menu__area{
+    vertical-align: middle;
+}
+/* --------------------------------------------------- */
+  /* Category___page section code ends here */
+/* --------------------------------------------------*/
+/* --------------------------------------------------- */
+  /* button__slider section code starts here */
+/* --------------------------------------------------*/
+.button__slider .category__page__btn .btn__layout1{
+    background-color: var(--bs-blue-color-normal);
+    width: 99px;
+    height: 28px;
+}
+.button__slider .category__page__btn .btn__layout1 span{
+    color: var(--bs-blue-surface-white);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button__slider .owl-nav.disabled{
+    display: none !important;
+}
+.button__slider .owl-dots.disabled{
+    display: none !important;
+}
+
+.toggle_category {
+    width: 100%;
+    padding: 0px;
+    background-color: #E9EBEE;
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+
+
+/* --------------------------------------------------- */
+  /* button__slider section code ends here */
+/* --------------------------------------------------*/
+/* --------------------------------------------------- */
+  /* category__descriotion__section tab code starts here */
+/* --------------------------------------------------*/
+
+.category__descriotion__section .category__descriotion__area h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #304598;
+}
+.category__descriotion__section .category__descriotion__area p{
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    color: #1C2E44;
+}
+.nav-tabs .nav-link.active{
+    color: var(--bs-blue-color-normal);
+}
+.nav-tabs .nav-link{
+    font-weight:600;
+    font-size: 14px;
+    color: var(--bs-blue-dark-darker);
+}
+
+/* --------------------------------------------------*/
+/* --------------------------------------------------- */
+  /* category__descriotion__section tab code ends here */
 /* --------------------------------------------------*/
 /* ---------------------------- */
   /* Footer Code ends here */

@@ -157,3 +157,27 @@ $('#environment__friendly').owlCarousel({
     }
 })
 // <!-- environment__friendly slider code ends here-->
+// <!--  button__slider section code starts here-->
+$('#button__slider__area').owlCarousel({
+    loop:true,
+    margin:18,
+    nav:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:7
+        }
+    }
+})
+// <!--  button__slider section code ends here-->
+// <!--  category-page toggle code starts here-->
+function myFunction() {
+  var element = document.getElementById("myDIV");
+  element.classList.toggle("toggle_category");
+}
+// <!--  category-page toggle code ends here-->
