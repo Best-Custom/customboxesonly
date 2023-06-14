@@ -175,6 +175,25 @@ $('#button__slider__area').owlCarousel({
     }
 })
 // <!--  button__slider section code ends here-->
+
+// <!--  button__slider section code starts here-->
+$('#portfolio__range').owlCarousel({
+    loop:true,
+    margin:18,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+// <!--  button__slider section code ends here-->
 // <!--  category-page toggle code starts here-->
 function myFunction() {
   var element = document.getElementById("myDIV");

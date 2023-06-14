@@ -162,7 +162,7 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="capabilities" role="tabpanel" aria-labelledby="nav-profile-tab">Special Capabilities description</div>
-            <div class="tab-pane fade" id="lamination" role="tabpanel" aria-labelledby="nav-contact-tab">Coating & Lamination</div>
+            <div class="tab-pane fade" id="lamination" role="tabpanel" aria-labelledby="nav-home-tab">Coating & Lamination</div>
             <div class="tab-pane fade" id="finishes" role="tabpanel" aria-labelledby="nav-contact-tab">Special Finishes</div>
             </div>
         </div>

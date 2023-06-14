@@ -53,30 +53,32 @@
     <div class="container">
        <div class="row">
             <h1>Our Most Popular Products</h1>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+            <div class="owl-carousel owl-theme" id="portfolio__range">
+                <div class="item">
+                    <div class="our__range__item">
+                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+                    </div>
+                    <h4>Cardboard Boxes</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+                <div class="item">
+                    <div class="our__range__item">
+                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+                    </div>
+                    <h4>Cardboard Boxes</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <span class="product__tag eco-friendly">Eco Friendly</span>
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+                <div class="item">
+                    <div class="our__range__item">
+                        <span class="product__tag eco-friendly">Eco Friendly</span>
+                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+                    </div>
+                    <h4>Cardboard Boxes</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+                <div class="item">
+                    <div class="our__range__item">
+                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+                    </div>
+                    <h4>Cardboard Boxes</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
             </div>
        </div>
     </div>
