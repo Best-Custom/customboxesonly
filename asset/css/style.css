@@ -1060,6 +1060,11 @@ height: 75px;
     background:  var(--bs-orange-surface-light);
     border-radius: 28px;
   
+}
+.our__review .our__review__items img{
+    width: 5% !important;
+    margin-right: 2px;
+    padding: 0;
 } 
 
 .our__review__bg{
@@ -1074,8 +1079,8 @@ height: 75px;
     margin-top: 18px;
 }
 .our__review .our__review__items .our__review__people img{
-    margin-top: 20px;
-    width: 50px;
+    margin-top: 20px!important;
+    width: 50px!important;
 }
 .our__review .our__review__items .our__review__people .our__review__text {
     margin:25px 25px 25px 15px;
