@@ -1770,6 +1770,71 @@ text-align: center;
   /* contact__page__section code ends here */
 /* --------------------------------------------------*/
 
+
+/* --------------------------------------------------- */
+  /* about__us__section code starts here */
+/* --------------------------------------------------*/
+
+.about__us__section .about__us__images__area .image__style1{
+    margin-top: 70px;
+
+}     
+.about__us__section .about__us__images__area .image__style2{
+    margin-top: 130px;
+}     
+.about__us__section .about__us__images__area .image__style3{
+    margin-top: 104px;
+}     
+.about__us__section .about__us__images__area .image__style4{
+    margin-top: 17px;
+}     
+
+
+.about__us__section .about__us__code__heading h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 81px;
+    color:var(--bs-blue-color-normal)    
+}
+
+.about__us__design__section .about__us__design__area{
+    background:var(--bs-blue-color-normal);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 64px;
+}
+
+.about__us__design__section .about__us__design__area h3{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--bs-orange-dark-normal);
+}
+.about__us__design__section .about__us__design__area p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    color: var(--bs-blue-surface-white);
+}
+
+.about__us__design__section .about__us__design__image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 64px;
+}
+
+
+/* --------------------------------------------------- */
+  /* about__us__section code ends here */
+/* --------------------------------------------------*/
+
 /* -------------------------------- */
 /* ---------------------------- */
      /* Footer Code starts */

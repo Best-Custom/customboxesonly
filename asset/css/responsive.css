@@ -271,6 +271,16 @@
         line-height: 25px;
         text-align: justify;
     }
+    .about__us__design__section .about__us__design__area h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .about__us__design__section .about__us__design__area p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: justify;
+    }
 }
 
 
@@ -935,6 +945,26 @@
         line-height: 15px;
         letter-spacing: 0.25px;
         text-transform: uppercase;
+    }
+    .about__us__section .about__us__code__heading h1{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .about__us__design__section .about__us__design__area h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about__us__design__section .about__us__design__area p{
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+    }
+    .about__us__design__section .about__us__design__image{
+        margin-top: 2rem;
+    }
+    .about__us__design__section .about__us__design__area{
+        padding: 2rem!important;
     }
     
 }
