@@ -127,9 +127,58 @@
 </section>
 <!-- faq section code ends here  -->
 
-<!-- our forms section code starts here -->
-<?php include('components/form.php') ?>
-<!-- our forms section code ends here -->
+<!-- Faq__form section code starts here -->
+
+<section class="faq__form__Section">
+    <div class="container">
+        <div class="row">
+            <div class="faq__form__heading">
+                <h1>Have a question we didn't address?</h1>
+                <p> Contact Us with Your Questions</p>
+            </div>
+            <div class="faq__form__area">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+                            <label for="name">What is your name?</label>
+                            <input type="text" name="name" class="form-control mt-1" placeholder="Type name here"> 
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+                            <label for="name">What is your phone number?</label>
+                            <input type="text" name="email" class="form-control mt-1" placeholder="Type here"> 
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+                            <label for="name">What is your name?</label>
+                            <input type="text" name="name" class="form-control mt-1" placeholder="Type name here"> 
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+                        <label for="name">What is your phone number?</label>
+                            <input type="text" name="email" class="form-control mt-1" placeholder="Type here"> 
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-3">
+                            <label for="name">Please, type your message here</label>
+                            <textarea type="text" name="description" class="form-control mt-1" placeholder="Type here"> </textarea>
+                        </div>
+                    </div> 
+                    <div class="row btn__layout1__positioning justify-content-end mt-3 mb-3">
+                        <button class="btn__layout1 p-3">
+                            <a class="d-table" href="#">
+                                <span class="d-table-cell w-100 text-start">send</span>
+                                <img class="d-table-cell" src="asset/images/faq__form__vector.png" alt=""> 
+                            </a>   
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Faq__form section code ends here -->
 
 <!-- our forms section code starts here -->
 <?php include('components/contact-us.php') ?>

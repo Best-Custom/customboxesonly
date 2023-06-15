@@ -169,8 +169,9 @@
 </section>
 <!-- Our Range Code ends here-->
 
-
+<!-- our contact us section code starts here  -->
 <?php include('components/contact-us.php') ?>
+<!-- our contact us section code ends here  -->
 
 
 <?php include('include/footer.php') ?>
