@@ -1679,6 +1679,96 @@ text-align: center;
 /* --------------------------------------------------- */
   /* FAQ page section code ends here */
 /* --------------------------------------------------*/
+/* --------------------------------------------------- */
+  /* contact__page__section code starts here */
+/* --------------------------------------------------*/
+
+.contact__page__section .contact__form__area{
+    background:url(../images/contact__page/contact__form__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 64px;
+}
+.contact__page__section .contact__page__contact__area{
+    background: url(../images/contact__page/contact__page__contact__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* height: 899px; */
+    border-radius: 64px;
+    text-align: center;
+}
+.contact__page__section .contact__page__contact__area p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--bs-blue-footer-text-color);
+}
+.contact__page__section .contact__page__contact__area h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--bs-blue-footer-text-color);
+}
+.contact__page__section .contact__page__contact__area img{
+    background: #304598;
+    padding: 18px;
+    border-radius: 50%;
+}    
+
+.contact__page__section .contact__page__social__links{
+    background:none!important;
+}
+
+.contact__page__section .contact__form__area h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    color: #E9EBEE;
+}
+.contact__page__section .contact__form__area p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    color: #E9EBEE;
+}
+.contact__page__section .contact__form__area label{
+    color: #E9EBEE;
+}
+.contact__page__section .contact__form__area input{
+    background-color: transparent;
+}
+
+.contact__page__section .contact__form__area span{
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: var(--bs-blue-color-normal);
+}
+.contact__page__section .contact__form__area input::placeholder{
+    color: #A8A8A8;
+}
+.contact__page__section .contact__form__area textarea{
+    background-color: transparent;
+
+}
+.contact__page__section .contact__form__area textarea::placeholder{
+    color: #A8A8A8;
+}
+.contact__page__section .contact__form__area .btn__layout1{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+/* --------------------------------------------------- */
+  /* contact__page__section code ends here */
+/* --------------------------------------------------*/
 
 /* -------------------------------- */
 /* ---------------------------- */

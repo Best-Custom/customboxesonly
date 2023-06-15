@@ -245,6 +245,32 @@
         font-size: 16px;
         line-height: 20px;
     }
+    .contact__page__section .contact__form__area h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .contact__page__section .contact__form__area p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .our__review h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .our__review p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: justify;
+    }
 }
 
 
@@ -867,6 +893,48 @@
         font-size: 10px;
         line-height: 120%;
         color:#232E52
+    }
+    .contact__page__section .contact__form__area h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .contact__page__section .contact__form__area p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+    }
+    .contact__page__section .contact__form__area{
+        padding: 1.50rem!important;
+    }
+    .our__review h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .our__review p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+    }
+    .our__review .btn__layout1{
+        width: 140px;
+        padding: 8px;
+        height: 40px;
+    }
+    .our__review .btn__layout1 span{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.25px;
+        text-transform: uppercase;
     }
     
 }
