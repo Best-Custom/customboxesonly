@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="asset/css/font-cabinet-grotesk.css">
     <link rel="stylesheet" href="asset/css/font-awesome.css">
     <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 
 
 </head>

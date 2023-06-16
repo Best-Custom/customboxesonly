@@ -200,3 +200,14 @@ function myFunction() {
   element.classList.toggle("toggle_category");
 }
 // <!--  category-page toggle code ends here-->
+
+
+// product__detail__page code starts here
+function changeImage(element) {
+
+    var main_prodcut_image = document.getElementById('main_product_image');
+    main_prodcut_image.src = element.src;
+    
+
+}
+// product__detail__page code ends here

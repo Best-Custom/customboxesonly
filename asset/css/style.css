@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cabinet Grotesk';
 }
 
-h1 , h2 , h3 , h4 , h5, h6{
-    color:var(--bs-blue-color-normal)
+h1, h2, h3, h4, h5, h6 {
+    color: var(--bs-blue-color-normal)
 }
-.container{
+
+.container {
     max-width: 1462px !important;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--bs-blue-color-normal);
 }
-section{
+
+section {
     margin: 64px 96px;
 }
+
 :root {
-/* ------------------------------------ */
+    /* ------------------------------------ */
     /* Orange Colors Styles */
     /* --------------------------------------------- */
 
@@ -90,7 +94,7 @@ section{
     --bs-blue-dark-dark-hover: #1d295b;
     --bs-blue-dark-dark-active: #161f44;
     --bs-blue-dark-darker: #111835;
-    
+
     /* Surface */
     --bs-blue-surface-white: #ffffff;
     --bs-blue-surface-white-hover: #f5f6fa;
@@ -103,19 +107,19 @@ section{
     --bs-blue-surface-normal-active: #b9c0dc;
     --bs-blue-surface-dark: #e0e3f0;
 
-    --bs-blue-footer-text-color:#1C2E44;
+    --bs-blue-footer-text-color: #1C2E44;
 
 
 
-/* -----------------------------------------------------------------------/     */
+    /* -----------------------------------------------------------------------/     */
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
 }
 
 /* ---------------------------- */
-     /* Sample Styles Codes starts */
+/* Sample Styles Codes starts */
 /* ----------------------------*/
 
-.btn__outline1{
+.btn__outline1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -131,11 +135,11 @@ section{
     flex-grow: 0;
 }
 
-.btn__layout1{
+.btn__layout1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border:0px;
+    border: 0px;
     gap: 4px;
     width: 157px;
     height: 41px;
@@ -147,17 +151,17 @@ section{
     flex-grow: 0;
 }
 
-.product__tag{
+.product__tag {
 
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding:11px 12px 16px;
+    padding: 11px 12px 16px;
     gap: 10px;
     color: var(--bs-blue-color-normal);
     position: absolute;
     background: #FF971A;
-    border-radius:20px 0 24px 0px;
+    border-radius: 20px 0 24px 0px;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -166,7 +170,7 @@ section{
 }
 
 /* ---------------------------- */
-     /* Button Styles ends here */
+/* Button Styles ends here */
 /* ----------------------------*/
 
 
@@ -174,56 +178,61 @@ section{
 
 
 /* ---------------------------- */
-     /* Header Code starts */
+/* Header Code starts */
 /* ----------------------------*/
 
 
 
-.frame2_button{
+.frame2_button {
 
-/* Auto layout */
+    /* Auto layout */
 
 
-flex-direction: row;
-justify-content: center;
-align-items: center;
-border:0px;
-gap: 4px;
-width: 120px;
-height: 40px;
-background: #FF971A;
-border-radius: 8px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    gap: 4px;
+    width: 120px;
+    height: 40px;
+    background: #FF971A;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
-.fa-envelope{
+
+.fa-envelope {
     color: #FF971A;
     background: #FF971A;
     ;
 }
-.header__rectangle{
 
-/* position: absolute;
+.header__rectangle {
+
+    /* position: absolute;
 width: 1268px; */
-height: 96px;
-left: 216px;
-top: 76px;  
-padding: 0 0 0 10px;
+    height: 96px;
+    left: 216px;
+    top: 76px;
+    padding: 0 0 0 10px;
 
-/* Light Accent */
+    /* Light Accent */
 
-background: #E9EBEE;
-border-radius: 24px;
+    background: #E9EBEE;
+    border-radius: 24px;
 }
-.header__section .header__nav__items__top span{
+
+.header__section .header__nav__items__top span {
     color: var(--bs-blue-color-normal);
 }
-.header__nav__items__top{
+
+.header__nav__items__top {
     margin: 1rem;
 }
-.header__items__area__links{
+
+.header__items__area__links {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 700;
@@ -233,16 +242,18 @@ border-radius: 24px;
     text-decoration: none;
     color: var(--bs-blue-color-normal);
 }
-.header__items__area__links:hover{
-    color:var(--bs-blue-color-dark-hover)
+
+.header__items__area__links:hover {
+    color: var(--bs-blue-color-dark-hover)
 }
 
-.header__section .header__rectangle .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .header__items__area__links img{
+.header__section .header__rectangle .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .header__items__area__links img {
     border-radius: 4px;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
+
 .header__section .header__rectangle .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .header__items__area__links span {
     width: 75px;
     height: 20px;
@@ -255,47 +266,49 @@ border-radius: 24px;
     order: 0;
     flex-grow: 0;
 }
-.header__section .header__rectangle .navbar .navbar-collapse{
+
+.header__section .header__rectangle .navbar .navbar-collapse {
     background-color: #E9EBEE;
     padding: 20px;
 }
 
 
 /* ---------------------------- */
-  /* Header Code ends here */
+/* Header Code ends here */
 /* ----------------------------*/
 
 
 
 /* ---------------------------- */
-  /* Main Menu style Starts here */
+/* Main Menu style Starts here */
 /* ----------------------------*/
-.main__menu__section{
+.main__menu__section {
 
-        background-image: url('../images/carousel_main_rectangle.png');
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-size: cover;
-        border-radius: 64px 64px 0 64px;
+    background-image: url('../images/carousel_main_rectangle.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 64px 64px 0 64px;
 }
 
 
-.main__menu__section{
-    margin-top:24px;
+.main__menu__section {
+    margin-top: 24px;
 }
 
-.main__menu__section .main__menu__right__area{
-    
+.main__menu__section .main__menu__right__area {
+
     text-align: end;
     padding: 20px 30px 20px 0;
 }
 
-.main__menu__section .main__menu__left__area{
-    
+.main__menu__section .main__menu__left__area {
+
     padding: 54px 77px 54px 0;
     margin: 54px 54px;
 }
-.main__menu__section .main__menu__left__area h1{
+
+.main__menu__section .main__menu__left__area h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
@@ -303,10 +316,10 @@ border-radius: 24px;
     color: #E9EBEE;
 }
 
-.main__menu__section .carousel .carousel-indicators{
-    
-   
-  
+.main__menu__section .carousel .carousel-indicators {
+
+
+
     position: absolute;
     right: -194px;
     bottom: -119px;
@@ -317,30 +330,33 @@ border-radius: 24px;
     padding: 0;
     list-style: none;
 }
-.main__menu__section .carousel .carousel-inner{
+
+.main__menu__section .carousel .carousel-inner {
     height: 340px;
 }
 
 .carousel-indicators [data-bs-target] {
-    background-color: black!important;
+    background-color: black !important;
 }
 
 .main__menu__section .carousel .main__menu_section__buttons {
     margin-left: 40px;
     margin-top: 24px;
 }
+
 .main__menu__section .carousel .main__menu_section__buttons .main__menu_section__ellipse {
-color: #FFFFFF;
-margin-top: 24px;
+    color: #FFFFFF;
+    margin-top: 24px;
 }
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__ellipse .main__menu_section__ellipse__images{
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__ellipse .main__menu_section__ellipse__images {
     margin-left: 16px;
 }
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__ellipse .main__menu_section__ellipse__images img{
-    
-}
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button1{
-    
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__ellipse .main__menu_section__ellipse__images img {}
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button1 {
+
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -353,8 +369,9 @@ margin-top: 24px;
     order: 0;
 
 }
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2{
-    
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2 {
+
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -365,35 +382,40 @@ margin-top: 24px;
     order: 0;
 
 }
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button1 span{
-  
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button1 span {
+
     font-style: normal;
     /* font-weight: 700; */
     font-size: 20px;
     line-height: 25px;
 }
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2 span{
-   
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2 span {
+
     font-style: normal;
     /* font-weight: 700; */
     font-size: 20px;
     line-height: 25px;
 }
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2 a{
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2 a {
     color: var(--bs-blue-surface-white);
     text-decoration: none;
 
 }
-.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2 a{
+
+.main__menu__section .carousel .main__menu_section__buttons .main__menu_section__button2 a {
     color: var(--bs-blue-surface-white);
     text-decoration: none;
 
 }
-.main__menu__section .carousel .main__menu_section__layouts{
+
+.main__menu__section .carousel .main__menu_section__layouts {
     margin-left: 40px;
 }
 
-.main__menu__section .carousel .main__menu_section__layouts .main__menu_section__layouts___buttons .main__menu_section__layouts___button1{
+.main__menu__section .carousel .main__menu_section__layouts .main__menu_section__layouts___buttons .main__menu_section__layouts___button1 {
     align-items: baseline;
     padding: 4px 10px;
     margin: 0 4px;
@@ -402,7 +424,7 @@ margin-top: 24px;
     border-radius: 16px;
 }
 
-.main__menu__section .carousel .main__menu_section__layouts .main__menu_section__layouts___buttons .main__menu_section__layouts___button1 span{
+.main__menu__section .carousel .main__menu_section__layouts .main__menu_section__layouts___buttons .main__menu_section__layouts___button1 span {
     color: var(--bs-blue-color-normal);
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -415,28 +437,34 @@ margin-top: 24px;
     order: 0;
     flex-grow: 0;
 }
+
 /* ---------------------------- */
-  /* Main Menu style ends here */
+/* Main Menu style ends here */
 /* ----------------------------*/
 
 
 /* ---------------------------- */
-  /* Partners style Starts here */
+/* Partners style Starts here */
 /* ----------------------------*/
 
-.partner__section__image{
+.partner__section__image {
     text-align: center;
 }
-.partner__section{
+
+.partner__section {
     margin: 64px;
 }
+
 .owl-item {
-    width: 151px; margin-right: 45px;
+    width: 151px;
+    margin-right: 45px;
 }
-.partner__section .owl-carousel .owl-nav.disabled{
+
+.partner__section .owl-carousel .owl-nav.disabled {
     display: none !important;
 }
-.partner__section .owl-carousel .owl-dots.disabled{
+
+.partner__section .owl-carousel .owl-dots.disabled {
     display: none !important;
 }
 
@@ -446,26 +474,28 @@ margin-top: 24px;
 
 
 /* ---------------------------- */
-  /* customized__solution style Starts here */
+/* customized__solution style Starts here */
 /* ----------------------------*/
 
 
 
 .customized__solution__section {
-    
+
     background: #E0E3F0;
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
     border-radius: 64px;
 }
-.customized__solution__section .customized__solution__image{
+
+.customized__solution__section .customized__solution__image {
     vertical-align: middle;
     padding: 39px 0;
 
 }
-.customized__solution__section .btn__outline1{
-    color: var(--bs-blue-color-normal)!important;
+
+.customized__solution__section .btn__outline1 {
+    color: var(--bs-blue-color-normal) !important;
     border: 1px solid var(--bs-blue-color-normal);
     border-radius: 8px;
     width: 82px;
@@ -476,9 +506,10 @@ margin-top: 24px;
     letter-spacing: 0.25px;
     text-transform: uppercase;
 }
-.customized__solution__section .sustainable__menu .btn__layout1{
+
+.customized__solution__section .sustainable__menu .btn__layout1 {
     background: var(--bs-blue-color-normal);
-    font-family: 'Nunito Sans'!important;
+    font-family: 'Nunito Sans' !important;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -486,11 +517,12 @@ margin-top: 24px;
     line-height: 175%;
     border-radius: 12px;
 }
-.customized__solution__section .sustainable__menu .btn__layout1 span{
+
+.customized__solution__section .sustainable__menu .btn__layout1 span {
     color: var(--bs-blue-surface-white);
 }
 
-.sustainable__page__section{
+.sustainable__page__section {
     background: #8CC63F;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -499,25 +531,29 @@ margin-top: 24px;
 
 }
 
-.customized__solution__section .customized__solution__text{
+.customized__solution__section .customized__solution__text {
     padding: 66px 40px;
 }
-.customized__solution__section .customized__solution__area{
+
+.customized__solution__section .customized__solution__area {
     width: 100%;
     text-align: center;
 }
-.customized__solution__section .customized__solution__text a{
+
+.customized__solution__section .customized__solution__text a {
     text-decoration: none !important;
-    color: var(--bs-blue-color-normal)!important;
+    color: var(--bs-blue-color-normal) !important;
 }
-.customized__solution__section .customized__solution__text p{
+
+.customized__solution__section .customized__solution__text p {
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
     text-align: justify;
     color: var(--bs-blue-footer-text-color);
 }
-.customized__solution__section .customized__solution__text h1{
+
+.customized__solution__section .customized__solution__text h1 {
     /* Headers/Header 1 */
     margin-top: 16px;
     font-style: normal;
@@ -528,7 +564,7 @@ margin-top: 24px;
 }
 
 /* ---------------------------- */
-  /* customized__solution__section style ends here */
+/* customized__solution__section style ends here */
 /* ----------------------------*/
 
 /* --------------------------------------------------------------- */
@@ -536,31 +572,36 @@ margin-top: 24px;
 /* ---------------------------- */
 /* Our range Code starts here*/
 /* ----------------------------*/
-    
-.our__range__section button h1{
+
+.our__range__section button h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
     color: var(--bs-blue-color-normal);
 }
-.our__range__section button{
+
+.our__range__section button {
     border: #f0f8ff00;
 }
-.our__range__section .toggle__area{
-        border-radius: 32px;
-        background: #E9EBEE;
-        padding: 1rem;
+
+.our__range__section .toggle__area {
+    border-radius: 32px;
+    background: #E9EBEE;
+    padding: 1rem;
 }
-.our__range__section .toggle__area li{
+
+.our__range__section .toggle__area li {
     list-style-type: none;
 }
+
 .our__range__section .our__range__item {
     margin: 8px;
-    border:8px solid var(--bs-blue-dark-light-active);
+    border: 8px solid var(--bs-blue-dark-light-active);
     border-radius: 28px;
 }
-.our__range__section h4{
+
+.our__range__section h4 {
     margin-top: 16px;
     font-family: 'Cabinet Grotesk';
     font-style: normal;
@@ -570,23 +611,28 @@ margin-top: 24px;
     text-align: center;
     color: var(--bs-blue-color-normal);
 }
-.our__range__section .our__range__item .eco-friendly{
+
+.our__range__section .our__range__item .eco-friendly {
 
     background: #8CC63F;
 
 }
-.our__range__section .our__range__item .best-selling{
-    background: #F0A500;;
+
+.our__range__section .our__range__item .best-selling {
+    background: #F0A500;
+    ;
 }
-.eco__friendly__heading__description{
+
+.eco__friendly__heading__description {
     width: 60%;
 }
-.eco__friendly__heading__btn{
+
+.eco__friendly__heading__btn {
     width: 40%;
 }
 
 /* ---------------------------- */
-     /* Our range Code ends here */
+/* Our range Code ends here */
 /* ----------------------------*/
 
 
@@ -594,13 +640,14 @@ margin-top: 24px;
 /* our__forms Code starts here */
 /* ----------------------------*/
 
-.our__forms{
+.our__forms {
     /* background: url('../images/our__forms/our__forms__bg.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
 }
-.our__forms .home__bg{
+
+.our__forms .home__bg {
     background: var(--bs-blue-color-normal);
     background-repeat: no-repeat;
     background-size: cover;
@@ -608,7 +655,8 @@ margin-top: 24px;
     width: 50%;
     border-radius: 56.5px 0px 0px 0px;
 }
-.our__forms #home{
+
+.our__forms #home {
     background: var(--bs-blue-color-normal);
     background-repeat: no-repeat;
     background-size: cover;
@@ -616,7 +664,8 @@ margin-top: 24px;
     border-radius: 0 0 64px 64px;
 
 }
-.our__forms .profile__bg{
+
+.our__forms .profile__bg {
     background: #FF971A;
     background-repeat: no-repeat;
     background-size: cover;
@@ -625,71 +674,85 @@ margin-top: 24px;
     border-radius: 0px 56.5px 0px 0px;
     color: var(--bs-blue-color-normal);
 }
-.our__forms #profile-tab{
-    color:var(--bs-blue-color-normal);
+
+.our__forms #profile-tab {
+    color: var(--bs-blue-color-normal);
 }
-.our__forms #profile{
+
+.our__forms #profile {
     background: #FF971A;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
 }
 
-.our__forms .nav .nav-item button{
+.our__forms .nav .nav-item button {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     text-align: center;
     padding: 27px 230px 27px 36px;
-    color: #FF971A; 
+    color: #FF971A;
 }
-.our__forms .nav .nav-item span{
+
+.our__forms .nav .nav-item span {
     padding: 27px;
 
-text-align: center;
+    text-align: center;
 }
-.our__forms .nav-tabs{
+
+.our__forms .nav-tabs {
     text-align: -webkit-center;
 }
-.nav-tabs .nav-link.active{
+
+.nav-tabs .nav-link.active {
     background: none;
     border: none;
 }
-.our__forms .tab-content h2,p{
+
+.our__forms .tab-content h2, p {
     color: var(--bs-blue-color-normal);
 }
-.our__forms .tab-content .tab-pane{
+
+.our__forms .tab-content .tab-pane {
     padding: 25px;
 }
+
 input[type="text"]::-webkit-input-placeholder {
     color: #E9EBEE;
 }
-.our__forms .tab-content .form-group input{
+
+.our__forms .tab-content .form-group input {
     background: transparent;
     border: 2px solid white;
-    
+
 }
-.our__forms .tab-content .form-group textarea{
+
+.our__forms .tab-content .form-group textarea {
     background: transparent;
     border: 2px solid white;
     height: 200px;
-    
+
 }
-.our__forms .tab-content .form-group select{
+
+.our__forms .tab-content .form-group select {
     border: 2px solid white;
     color: white;
     background-color: rgba(255, 255, 255, 0);
 
-    
+
 }
-.our__forms .tab-content .form-group input ::placeholder{
+
+.our__forms .tab-content .form-group input ::placeholder {
     color: white;
 }
-.our__forms .tab-content .form-group textarea ::placeholder{
+
+.our__forms .tab-content .form-group textarea ::placeholder {
     color: white;
 }
-.our__forms .form-group label{
+
+.our__forms .form-group label {
     color: white;
     font-style: normal;
     font-size: 18px;
@@ -697,20 +760,21 @@ input[type="text"]::-webkit-input-placeholder {
     margin-top: 40px;
 }
 
-.our__forms .tab-content .btn__layout1{
+.our__forms .tab-content .btn__layout1 {
     border-radius: 8px;
     margin-top: 45px;
     padding: 8px 16px;
     width: 362px;
-    height: 48px; 
-    margin: 50px;  
+    height: 48px;
+    margin: 50px;
 }
-.our__forms .tab-content .btn__layout1 a{
+
+.our__forms .tab-content .btn__layout1 a {
     text-decoration: none;
     color: var(--bs-blue-color-normal);
 }
 
-.our__forms .tab-content .btn__layout1 span{
+.our__forms .tab-content .btn__layout1 span {
     /* margin-right: 140px; */
 }
 
@@ -728,17 +792,17 @@ input[type="text"]::-webkit-input-placeholder {
     color: #cccccc;
     border: 4px dashed #ffffff;
     border-radius: 10px;
-  }
-  
-  .drop-zone--over {
+}
+
+.drop-zone--over {
     border-style: solid;
-  }
-  
-  .drop-zone__input {
+}
+
+.drop-zone__input {
     display: none;
-  }
-  
-  .drop-zone__thumb {
+}
+
+.drop-zone__thumb {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -746,9 +810,9 @@ input[type="text"]::-webkit-input-placeholder {
     background-color: #cccccc;
     background-size: cover;
     position: relative;
-  }
-  
-  .drop-zone__thumb::after {
+}
+
+.drop-zone__thumb::after {
     content: attr(data-label);
     position: absolute;
     bottom: 0;
@@ -759,37 +823,41 @@ input[type="text"]::-webkit-input-placeholder {
     background: rgba(0, 0, 0, 0.75);
     font-size: 14px;
     text-align: center;
-  }
+}
 
 
-  /* .our__forms .tab-content #profile h2{
+/* .our__forms .tab-content #profile h2{
     color: var(--bs-blue-color-normal);
     font-style: normal;
     font-size: 45px;
     line-height: 56px;
   } */
 
-.our__forms .tab-content #profile p{
+.our__forms .tab-content #profile p {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
     text-align: justify;
-    color: #38485B;    ;
+    color: #38485B;
+    ;
 }
-  .our__forms .tab-content #profile label{
+
+.our__forms .tab-content #profile label {
     color: var(--bs-blue-color-normal);
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     margin-top: 25px;
-  }
-  .our__forms .tab-content .tab-pane{
-    padding :0 60px;
+}
+
+.our__forms .tab-content .tab-pane {
+    padding: 0 60px;
     padding-top: 25px;
-  }
-  .our__forms .tab-content #profile input{
+}
+
+.our__forms .tab-content #profile input {
     border: 1px solid black;
     font-family: 'Inter';
     font-style: normal;
@@ -797,8 +865,9 @@ input[type="text"]::-webkit-input-placeholder {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.5px;
-  }
-  .our__forms .tab-content .tab-pane .our__form__sample__kit__area .btn__layout1{
+}
+
+.our__forms .tab-content .tab-pane .our__form__sample__kit__area .btn__layout1 {
     background: var(--bs-blue-color-normal);
     border-radius: 8px;
     margin-top: 45px;
@@ -807,15 +876,17 @@ input[type="text"]::-webkit-input-placeholder {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-    
-  }
-  .our__forms .tab-content .tab-pane .btn__layout1 span{
-        color: var(--bs-blue-surface-white);
-  }
-  .our__forms .our__form__sample__kit__area{
+
+}
+
+.our__forms .tab-content .tab-pane .btn__layout1 span {
+    color: var(--bs-blue-surface-white);
+}
+
+.our__forms .our__form__sample__kit__area {
     margin-top: 40px;
-  }
-  
+}
+
 /* ---------------------------- */
 /* our__forms Code ends here */
 /* ----------------------------*/
@@ -826,96 +897,107 @@ input[type="text"]::-webkit-input-placeholder {
 /* ------------------------------------------------------------------- */
 
 /* ---------------------------- */
-    /* Choose us Code starts here */
+/* Choose us Code starts here */
 /* ----------------------------*/
 
-.choose__us__section{
+.choose__us__section {
     background: var(--bs-orange-surface-normal-active);
     margin-right: 0;
     margin-left: 0;
     padding: 64px 0px 64px 96px;
 }
-.choose__us__section .choose__us__area{
+
+.choose__us__section .choose__us__area {
     /* margin: 64px 94px; */
 }
-.choose__us__section .choose__us__area h1{
+
+.choose__us__section .choose__us__area h1 {
     font-weight: 700;
     font-size: 45px;
 
 }
-.choose__us__section .choose__us__slider__area{
+
+.choose__us__section .choose__us__slider__area {
     /* padding: 174px 0 114px 97px; */
 }
 
 .choose__us__section .choose__us__slider__area .choose__us__slider {
-   
+
     width: 289px;
 
-background: rgba(255, 255, 255, 0.5);
-border-radius: 16px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
 }
-.choose__us__section .choose__us__slider__area .choose__us__slider .choose__us__slider__img{
+
+.choose__us__section .choose__us__slider__area .choose__us__slider .choose__us__slider__img {
     text-align: center;
 }
 
-.choose__us__section .choose__us__slider__area .choose__us__slider img{
+.choose__us__section .choose__us__slider__area .choose__us__slider img {
     padding: 15px 12px;
     width: 265px;
     text-align: center;
     height: 159px;
     background: rgba(255, 255, 255, 0.3);
 }
-.choose__us__section .choose__us__slider__area .choose__us__slider h2{
+
+.choose__us__section .choose__us__slider__area .choose__us__slider h2 {
     margin-left: 12px;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
 }
-.choose__us__section .choose__us__slider__area .choose__us__slider p{
+
+.choose__us__section .choose__us__slider__area .choose__us__slider p {
     /* margin-top: 18px; */
     padding: 12px;
 }
-.slider__spacing{
+
+.slider__spacing {
     margin-right: 70px;
 }
 
 
 /* ---------------------------- */
-    /* Choose us Code ends here */
+/* Choose us Code ends here */
 /* ----------------------------*/
 /* ------------------------------------ */
-    /* Finish Styles Code starts here */
+/* Finish Styles Code starts here */
 /* ----------------------------------*/
 /* ----------------------------*/
 
 
-.finish__style__section{
+.finish__style__section {
     padding: 64px 64px 0 64px;
 }
-.finish__style__section .btn__layout1{
-    background:var(--bs-blue-color-normal);
+
+.finish__style__section .btn__layout1 {
+    background: var(--bs-blue-color-normal);
     color: var(--bs-blue-surface-white);
-    
+
 }
-.finish__style__section h1{
+
+.finish__style__section h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
 }
 
-.finish__style__section .finish__style__area{
+.finish__style__section .finish__style__area {
     background: var(--bs-blue-color-dark);
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
     border-radius: 24px;
 }
-.finish__style__section .finish__style__area img{
+
+.finish__style__section .finish__style__area img {
     /* padding: 150px 0px 0 0px;     */
 }
-.finish__style__section .finish__style__area__horizental{
+
+.finish__style__section .finish__style__area__horizental {
     background: var(--bs-blue-color-dark);
     background-repeat: no-repeat;
     object-fit: cover;
@@ -923,29 +1005,31 @@ border-radius: 16px;
     border-radius: 24px;
     margin-bottom: 16px;
 }
-.finish__style__section .finish__style__area__horizental h2{
+
+.finish__style__section .finish__style__area__horizental h2 {
     /* margin-top: 200px; */
     margin-left: 24px;
     color: var(--bs-blue-surface-white);
 }
 
-.finish__style__section .finish__style__area__horizental img{
+.finish__style__section .finish__style__area__horizental img {
     border-radius: 0 0 23px 0;
-    
+
 }
+
 /* .finish__style__section .finish__style__area__horizental .finish__style__product3{
     
 } */
 
 /* ------------------------------------ */
-    /* Finish Styles Code starts here */
+/* Finish Styles Code starts here */
 /* ----------------------------------*/
 
 /* ------------------------------------ */
 /* eco_friendly section Code starts here */
 /* ----------------------------------*/
 
-.eco__friendly__section{
+.eco__friendly__section {
     background: url('../images/eco__friendly__section/eco_friendly_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -955,7 +1039,8 @@ border-radius: 16px;
     margin-right: 0px;
     margin-left: 0px;
 }
-.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__description p{
+
+.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__description p {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -964,53 +1049,63 @@ border-radius: 16px;
     text-align: justify;
 }
 
-.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__btn .btn__layout1{
+.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__btn .btn__layout1 {
     background: #8CC63F;
-    font-family: 'Nunito Sans'!important;
+    font-family: 'Nunito Sans' !important;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     border-radius: 12px;
 }
-.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__btn a{
+
+.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__btn a {
     color: var(--bs-blue-footer-text-color);
 }
-.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__btn a:hover{
+
+.eco__friendly__section .eco__friendly__heading__area .eco__friendly__heading__btn a:hover {
     color: var(--bs-blue-color-dark-hover);
 }
-.eco__friendly__section .eco__friendly__styles .eco__friendly__shape{
+
+.eco__friendly__section .eco__friendly__styles .eco__friendly__shape {
     width: 75px;
-height: 75px;
+    height: 75px;
     background: #8CC63F;
 }
-.eco__friendly__section .eco__friendly__styles .eco__friendly__shape img{
+
+.eco__friendly__section .eco__friendly__styles .eco__friendly__shape img {
     padding: 24px;
 }
-.eco__friendly__section .eco__friendly__styles h2{
+
+.eco__friendly__section .eco__friendly__styles h2 {
     font-style: normal;
     font-weight: 700;
-    margin-top:8px;
+    margin-top: 8px;
     font-size: 16px;
     line-height: 20px;
     color: var(--bs-blue-color-normal);
 }
-.eco__friendly__section .eco__friendly__styles p{
+
+.eco__friendly__section .eco__friendly__styles p {
     color: black;
 }
-.eco__friendly__section .eco__friendly__styles{
+
+.eco__friendly__section .eco__friendly__styles {
     margin-top: 60px;
 }
+
 .eco__friendly__section .eco__friendly__images {
     margin-top: 60px;
     text-align: end;
-    
+
 }
-.eco__friendly__section .eco__friendly__images img{
+
+.eco__friendly__section .eco__friendly__images img {
     padding: 8px;
     width: 80%;
     gap: 10px;
 }
+
 /* ------------------------------------ */
 /* eco_friendly section Code ends here */
 /* ----------------------------------*/
@@ -1021,71 +1116,80 @@ height: 75px;
 /* ------------------------------------ */
 /* our__review section Code starts here */
 /* ----------------------------------*/
-.our__review .row{
+.our__review .row {
     margin-top: 12px;
 }
 
-.our__review h2{
+.our__review h2 {
 
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
 }
-.our__review .btn__layout1{
+
+.our__review .btn__layout1 {
     border-radius: 12px;
     background: var(--bs-blue-color-normal);
     color: var(--bs-blue-surface-white);
-  
+
 }
 
-.owl-theme .owl-dots{
-    text-align: right!important;
+.owl-theme .owl-dots {
+    text-align: right !important;
 }
-.owl-theme .owl-nav{
-    text-align: left!important;
+
+.owl-theme .owl-nav {
+    text-align: left !important;
 }
+
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
     display: block !important;
 }
 
-.our__review .btn__layout1 span{
+.our__review .btn__layout1 span {
     font-size: 20px;
     line-height: 25px;
 }
 
-.our__review .our__review__items{
+.our__review .our__review__items {
     padding: 30px;
-    margin-top:40px;
-    background:  var(--bs-orange-surface-light);
+    margin-top: 40px;
+    background: var(--bs-orange-surface-light);
     border-radius: 28px;
-  
-}
-.our__review .our__review__items img{
-    width: 5% !important;
-    margin-right: 2px;
-    padding: 0;
-} 
 
-.our__review__bg{
-    background: var(--bs-blue-dark-light)!important;
 }
-.our__review .our__review__items .our__review__star img{
+
+.our__review .our__review__items img {
     width: 5% !important;
     margin-right: 2px;
     padding: 0;
 }
-.our__review .our__review__items p{
+
+.our__review__bg {
+    background: var(--bs-blue-dark-light) !important;
+}
+
+.our__review .our__review__items .our__review__star img {
+    width: 5% !important;
+    margin-right: 2px;
+    padding: 0;
+}
+
+.our__review .our__review__items p {
     margin-top: 18px;
 }
-.our__review .our__review__items .our__review__people img{
-    margin-top: 20px!important;
-    width: 50px!important;
+
+.our__review .our__review__items .our__review__people img {
+    margin-top: 20px !important;
+    width: 50px !important;
 }
+
 .our__review .our__review__items .our__review__people .our__review__text {
-    margin:25px 25px 25px 15px;
+    margin: 25px 25px 25px 15px;
 }
-.our__review .our__review__items .our__review__people .our__review__text h4{
+
+.our__review .our__review__items .our__review__people .our__review__text h4 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -1093,13 +1197,15 @@ height: 75px;
     line-height: 17px;
     margin-bottom: 0px;
 }
-.our__review .our__review__items .our__review__people .our__review__text span{
+
+.our__review .our__review__items .our__review__people .our__review__text span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
 }
-.our__review .full__review__page{
+
+.our__review .full__review__page {
     border-bottom: 4px solid var(--bs-blue-color-normal);
     width: 22rem;
 }
@@ -1116,8 +1222,8 @@ height: 75px;
 /* contact__us section Code starts here */
 /* ----------------------------------*/
 
-.contact__us{
-    background: var(--bs-blue-color-normal  );
+.contact__us {
+    background: var(--bs-blue-color-normal);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -1127,10 +1233,11 @@ height: 75px;
 
 }
 
-.contact__us .row{
+.contact__us .row {
     text-align: -webkit-center;
 }
-.contact__us .contact__us__email{
+
+.contact__us .contact__us__email {
     background: url('../images/contact__us/contac__us__ellipse.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -1138,14 +1245,16 @@ height: 75px;
     width: 130px;
     height: 130px;
     padding: 50px 50px;
-    margin-top:24px;
+    margin-top: 24px;
 }
-.contact__us h5{
+
+.contact__us h5 {
     margin-top: 18px;
     margin-bottom: 12px;
     color: var(--bs-blue-surface-white);
 }
-.contact__us p{
+
+.contact__us p {
     margin-bottom: 5px;
     color: var(--bs-blue-surface-white);
 }
@@ -1157,7 +1266,7 @@ height: 75px;
 /* our__journey section Code starts here */
 /* -------------------------------------*/
 
-.our__journey__section{
+.our__journey__section {
     background: url(../images/portfolio/portolio__journey__bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1166,14 +1275,16 @@ height: 75px;
     margin-left: 0px;
     padding: 40px;
 }
-.our__journey__section  h1{
+
+.our__journey__section h1 {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
 }
-.our__journey__section p{
+
+.our__journey__section p {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 500;
@@ -1181,17 +1292,20 @@ height: 75px;
     line-height: 25px;
     text-align: justify;
 }
+
 .our__journey__section .our__journey__item__area p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
 }
-.our__journey__section .our__journey__item__area{
+
+.our__journey__section .our__journey__item__area {
     padding: 0 180px;
     text-align: -webkit-center;
 }
-.our__journey__section .our__journey__item__area .our__journey__item{
+
+.our__journey__section .our__journey__item__area .our__journey__item {
     background-image: url(../images/our__journey/our__journey__item__bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1202,7 +1316,8 @@ height: 75px;
     margin-top: 66px;
     padding: 17px;
 }
-.our__journey__section .our__journey__item__area  p{
+
+.our__journey__section .our__journey__item__area p {
     margin-top: 20px;
 }
 
@@ -1213,10 +1328,11 @@ height: 75px;
 /* premium__finishes__section Code starts here */
 /* ----------------------------------------------*/
 
-.premium__finishes__section{
+.premium__finishes__section {
     margin: 64px 95px;
 }
-.premium__finishes__section .finish__style__area{
+
+.premium__finishes__section .finish__style__area {
     background: url(../images/premium__finishes/metallic__foiling.png);
     background-repeat: no-repeat;
     object-fit: cover;
@@ -1236,14 +1352,14 @@ height: 75px;
 /* ----------------------------------------------*/
 
 
-.main__menu__text h1{
+.main__menu__text h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
 }
 
-.main__menu__text p{
+.main__menu__text p {
 
     font-family: 'Cabinet Grotesk';
     font-style: normal;
@@ -1260,7 +1376,7 @@ height: 75px;
 /* packaging__choose__us Code starts here */
 /* ----------------------------------------------*/
 
-.packaging__choose__us{
+.packaging__choose__us {
     background: url(../images/premium__packaging/premium__packaging.png);
     background-repeat: no-repeat;
     object-fit: cover;
@@ -1268,19 +1384,21 @@ height: 75px;
     margin-right: 0px;
     margin-left: 0px;
     padding: 64px 95px;
-    
+
 }
-.packaging__choose__us .packaging__choose__us__area{
-    
-}
-.packaging__choose__us .packaging__choose__us__area .packaging__choose__us_images{
+
+.packaging__choose__us .packaging__choose__us__area {}
+
+.packaging__choose__us .packaging__choose__us__area .packaging__choose__us_images {
     padding: 12px;
 }
-.packaging__choose__us .packaging__choose__us__area .packaging__choose__us_images h6{
+
+.packaging__choose__us .packaging__choose__us__area .packaging__choose__us_images h6 {
     color: var(--bs-blue-surface-white);
     margin-top: 8px;
 }
-.packaging__choose__us h1{
+
+.packaging__choose__us h1 {
     color: var(--bs-blue-surface-white);
 }
 
@@ -1290,25 +1408,26 @@ height: 75px;
 /* ---------------------------------------------- */
 /* Reviews__section Code starts here */
 /* ----------------------------------------------*/
-.partner__section h1{
+.partner__section h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
     /* identical to box height */
 
-text-align: center;
+    text-align: center;
 }
+
 /* ---------------------------------------------- */
 /* Reviews__section Code ends here */
 /* ----------------------------------------------*/
 
 
 /* ----------------------------------- */
-  /* portfolio__section code starts here */
+/* portfolio__section code starts here */
 /* ------------------------------------*/
 
-.portfolio__section{
+.portfolio__section {
     background: url(../images/portfolio/portfolio__banner__bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1316,10 +1435,12 @@ text-align: center;
     border-radius: 64px;
     padding: 138px;
 }
-.portfolio__section .portfolio__section__area{
+
+.portfolio__section .portfolio__section__area {
     color: white !important;
 }
-.portfolio__section .portfolio__section__area h1{
+
+.portfolio__section .portfolio__section__area h1 {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 700;
@@ -1327,7 +1448,8 @@ text-align: center;
     line-height: 97.5%;
     text-align: center;
 }
-.portfolio__section .portfolio__section__area p{
+
+.portfolio__section .portfolio__section__area p {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 500;
@@ -1335,31 +1457,34 @@ text-align: center;
     line-height: 25px;
     text-align: justify;
 }
+
 /* ----------------------------------- */
-  /* portfolio__section code ends here */
+/* portfolio__section code ends here */
 /* ------------------------------------*/
 /* --------------------------------------------- */
-  /* environment__friendly__section code starts here */
+/* environment__friendly__section code starts here */
 /* ------------------------------------------------*/
 
-.environment__friendly__section__area{
-        background: rgba(140, 198, 63, 0.3);
-        background-size: cover;
-        object-fit: cover;
-        background-repeat: no-repeat;
-        border-radius: 16px;
-        width: 294px;
-        padding: 12px;
-        margin-top: 35px;
+.environment__friendly__section__area {
+    background: rgba(140, 198, 63, 0.3);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 294px;
+    padding: 12px;
+    margin-top: 35px;
 }
-.environment__friendly__section__area h2{
+
+.environment__friendly__section__area h2 {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
 }
-.environment__friendly__section__area p{
+
+.environment__friendly__section__area p {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 500;
@@ -1369,13 +1494,13 @@ text-align: center;
 }
 
 /* --------------------------------------------- */
-  /* environment__friendly__section code ends here */
+/* environment__friendly__section code ends here */
 /* ------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* sustainable__full__width__section code starts here */
+/* sustainable__full__width__section code starts here */
 /* --------------------------------------------------*/
 
-.sustainable__full__width__section{
+.sustainable__full__width__section {
     background: var(--bs-blue-color-normal);
     background-size: cover;
     object-fit: cover;
@@ -1384,21 +1509,24 @@ text-align: center;
     margin-right: 0px;
 }
 
-.sustainable__full__width__section .sustainable__recycle__area{
+.sustainable__full__width__section .sustainable__recycle__area {
     padding: 91px 140px;
 }
-.sustainable__full__width__section .sustainable__recycle__area .sustainable__recycle__text{
+
+.sustainable__full__width__section .sustainable__recycle__area .sustainable__recycle__text {
     width: 250px;
     margin-top: 25px;
 }
-.sustainable__full__width__section .sustainable__recycle__text h3{
+
+.sustainable__full__width__section .sustainable__recycle__text h3 {
     color: var(--bs-blue-surface-white);
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
 }
-.sustainable__full__width__section .sustainable__recycle__text p{
+
+.sustainable__full__width__section .sustainable__recycle__text p {
     color: var(--bs-blue-surface-white);
     font-family: 'Inter';
     font-style: normal;
@@ -1407,18 +1535,18 @@ text-align: center;
     line-height: 26px;
 }
 
-.sustainable__full__width__section  .sustainable__recycle__item img{
+.sustainable__full__width__section .sustainable__recycle__item img {
     background: #8CC63F !important;
     padding: 14px !important;
 }
 
 /* --------------------------------------------------- */
-  /* sustainable__full__width__section code ends here */
+/* sustainable__full__width__section code ends here */
 /* --------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* Category___page section code starts here */
+/* Category___page section code starts here */
 /* --------------------------------------------------*/
-.category__page__section{
+.category__page__section {
     background: url(../images/category__page/category__page__bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1426,13 +1554,14 @@ text-align: center;
     border-radius: 64px;
 }
 
-.category__page__section .category__main__menu__area h1{
+.category__page__section .category__main__menu__area h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 97%;
 }
-.category__page__section .category__main__menu__area p{
+
+.category__page__section .category__main__menu__area p {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1440,30 +1569,33 @@ text-align: center;
     text-align: justify;
 }
 
-.category__page__section .category__main__menu__area{
+.category__page__section .category__main__menu__area {
     vertical-align: middle;
 }
+
 /* --------------------------------------------------- */
-  /* Category___page section code ends here */
+/* Category___page section code ends here */
 /* --------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* button__slider section code starts here */
+/* button__slider section code starts here */
 /* --------------------------------------------------*/
-.button__slider .category__page__btn .btn__layout1{
+.button__slider .category__page__btn .btn__layout1 {
     background-color: var(--bs-blue-color-normal);
     width: 99px;
     height: 28px;
 }
-.button__slider .category__page__btn .btn__layout1 span{
+
+.button__slider .category__page__btn .btn__layout1 span {
     color: var(--bs-blue-surface-white);
     font-size: 14px;
     line-height: 17px;
 }
 
-.button__slider .owl-nav.disabled{
+.button__slider .owl-nav.disabled {
     display: none !important;
 }
-.button__slider .owl-dots.disabled{
+
+.button__slider .owl-dots.disabled {
     display: none !important;
 }
 
@@ -1474,24 +1606,25 @@ text-align: center;
     color: white;
     font-size: 18px;
     box-sizing: border-box;
-  }
+}
 
 
 /* --------------------------------------------------- */
-  /* button__slider section code ends here */
+/* button__slider section code ends here */
 /* --------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* category__descriotion__section tab code starts here */
+/* category__descriotion__section tab code starts here */
 /* --------------------------------------------------*/
 
-.category__descriotion__section .category__descriotion__area h3{
+.category__descriotion__section .category__descriotion__area h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
     color: #304598;
 }
-.category__descriotion__section .category__descriotion__area p{
+
+.category__descriotion__section .category__descriotion__area p {
     margin-top: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -1500,40 +1633,45 @@ text-align: center;
     text-align: justify;
     color: #1C2E44;
 }
-.nav-tabs .nav-link.active{
+
+.nav-tabs .nav-link.active {
     color: var(--bs-blue-color-normal);
 }
-.nav-tabs .nav-link{
-    font-weight:600;
+
+.nav-tabs .nav-link {
+    font-weight: 600;
     font-size: 14px;
     color: var(--bs-blue-dark-darker);
 }
 
 /* --------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* category__descriotion__section tab code ends here */
+/* category__descriotion__section tab code ends here */
 /* --------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* Blog main Menu Section code starts here */
+/* Blog main Menu Section code starts here */
 /* --------------------------------------------------*/
 
-.blog__main__menu__section .blog__main__menu__title h1{
+.blog__main__menu__section .blog__main__menu__title h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 81px;
 }
-.blog__main__menu__section .blog__main__menu__item h2{
+
+.blog__main__menu__section .blog__main__menu__item h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 130%;
     color: #232E52;
 }
-.blog__main__menu__section .blog__main__menu__item .btn__layout1{
+
+.blog__main__menu__section .blog__main__menu__item .btn__layout1 {
     border-radius: 8px;
 }
-.blog__main__menu__section .blog__main__menu__item  p{
+
+.blog__main__menu__section .blog__main__menu__item p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1544,7 +1682,7 @@ text-align: center;
 .blog__detail__section {
     background: url(../images/blog__page/blog__page__main__bg.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     object-fit: cover;
     border-radius: 32PX;
     margin-right: 0px;
@@ -1552,17 +1690,19 @@ text-align: center;
     padding: 100px 200px;
 }
 
-.blog__detail__section .blog__detail__area .frame2_button{
+.blog__detail__section .blog__detail__area .frame2_button {
     width: 146px;
     height: 36px;
 }
-.blog__detail__section .blog__detail__area .frame2_button span{
+
+.blog__detail__section .blog__detail__area .frame2_button span {
     font-style: normal;
     font-weight: 800;
     font-size: 13px;
     line-height: 120%;
 }
-.blog__detail__section .blog__detail__area h1{
+
+.blog__detail__section .blog__detail__area h1 {
     font-style: normal;
     width: 70%;
     font-weight: 700;
@@ -1570,15 +1710,18 @@ text-align: center;
     line-height: 130%;
     color: var(--bs-blue-surface-white);
 }
-.blog__description__section .highlighted__description{
+
+.blog__description__section .highlighted__description {
     background: #E0E3F0;
     border-radius: 8px;
     box-shadow: inset 0px 4px 0px #1D54C0;
 }
-.blog__description__section .blog__description__area{
+
+.blog__description__section .blog__description__area {
     padding: 0 140px;
 }
-.blog__description__section .blog__description__area p{
+
+.blog__description__section .blog__description__area p {
     font-style: normal;
     font-weight: 500;
     text-align: justify;
@@ -1586,16 +1729,17 @@ text-align: center;
     line-height: 150%;
     color: var(--bs-blue-footer-text-color);
 }
-.blog__description__list__area h1{
+
+.blog__description__list__area h1 {
     margin-left: 30px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 45px;
     color: #232E52
-
 }
-.blog__description__list__area h2{
+
+.blog__description__list__area h2 {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 700;
@@ -1604,33 +1748,38 @@ text-align: center;
     color: #232E52;
 
 }
-.blog__description__list__area p{
+
+.blog__description__list__area p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     color: #232E52;
 }
-.blog__description__list__area .blog__main__menu__area .blog__main__menu__item .btn__layout1 span{
+
+.blog__description__list__area .blog__main__menu__area .blog__main__menu__item .btn__layout1 span {
     color: #232E52;
 }
+
 /* --------------------------------------------------- */
-  /* Blog main Menu Section code ends here */
+/* Blog main Menu Section code ends here */
 /* --------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* FAQ page section code starts here */
+/* FAQ page section code starts here */
 /* --------------------------------------------------*/
 
-.faq__page__section .accordion-item{
+.faq__page__section .accordion-item {
     border: solid rgba(128, 128, 128, 0);
     background: #E0E3F0;
     border-radius: 16px;
     margin: 24px;
 }
-.faq__page__section .accordion-item .accordion-button{
+
+.faq__page__section .accordion-item .accordion-button {
     background: #E0E3F0;
 }
-.faq__form__Section{
+
+.faq__form__Section {
     background: #FFE5C6;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1638,14 +1787,16 @@ text-align: center;
     border-radius: 64px;
     padding: 3rem;
 }
-.faq__form__Section .faq__form__heading h1{
+
+.faq__form__Section .faq__form__heading h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
     color: var(--bs-blue-footer-text-color);
 }
-.faq__form__Section .faq__form__heading p{
+
+.faq__form__Section .faq__form__heading p {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -1653,18 +1804,22 @@ text-align: center;
     text-align: justify;
     color: var(--bs-blue-footer-text-color);
 }
-.faq__form__Section .faq__form__area input{
+
+.faq__form__Section .faq__form__area input {
     border: 1px solid var(--bs-blue-color-normal);
     background-color: transparent;
 }
-.faq__form__Section .faq__form__area input::placeholder{
-   color: var(--bs-blue-color-dark);
+
+.faq__form__Section .faq__form__area input::placeholder {
+    color: var(--bs-blue-color-dark);
 }
-.faq__form__Section .faq__form__area textarea{
+
+.faq__form__Section .faq__form__area textarea {
     border: 1px solid var(--bs-blue-color-normal);
     background-color: transparent;
 }
-.faq__form__Section .faq__form__area .btn__layout1{
+
+.faq__form__Section .faq__form__area .btn__layout1 {
     border: 0px;
     gap: 4px;
     width: 318px;
@@ -1672,7 +1827,8 @@ text-align: center;
     background: var(--bs-blue-color-normal);
     border-radius: 8px;
 }
-.faq__form__Section .faq__form__area .btn__layout1 span{
+
+.faq__form__Section .faq__form__area .btn__layout1 span {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1681,21 +1837,23 @@ text-align: center;
     color: var(--bs-blue-surface-white);
     text-transform: uppercase;
 }
+
 /* --------------------------------------------------- */
-  /* FAQ page section code ends here */
+/* FAQ page section code ends here */
 /* --------------------------------------------------*/
 /* --------------------------------------------------- */
-  /* contact__page__section code starts here */
+/* contact__page__section code starts here */
 /* --------------------------------------------------*/
 
-.contact__page__section .contact__form__area{
-    background:url(../images/contact__page/contact__form__bg.png);
+.contact__page__section .contact__form__area {
+    background: url(../images/contact__page/contact__form__bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     border-radius: 64px;
 }
-.contact__page__section .contact__page__contact__area{
+
+.contact__page__section .contact__page__contact__area {
     background: url(../images/contact__page/contact__page__contact__bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1704,7 +1862,8 @@ text-align: center;
     border-radius: 64px;
     text-align: center;
 }
-.contact__page__section .contact__page__contact__area p{
+
+.contact__page__section .contact__page__contact__area p {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1712,31 +1871,34 @@ text-align: center;
     text-align: center;
     color: var(--bs-blue-footer-text-color);
 }
-.contact__page__section .contact__page__contact__area h5{
+
+.contact__page__section .contact__page__contact__area h5 {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     color: var(--bs-blue-footer-text-color);
 }
-.contact__page__section .contact__page__contact__area img{
+
+.contact__page__section .contact__page__contact__area img {
     background: #304598;
     padding: 18px;
     border-radius: 50%;
-}    
-
-.contact__page__section .contact__page__social__links{
-    background:none!important;
 }
 
-.contact__page__section .contact__form__area h1{
+.contact__page__section .contact__page__social__links {
+    background: none !important;
+}
+
+.contact__page__section .contact__form__area h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
     color: #E9EBEE;
 }
-.contact__page__section .contact__form__area p{
+
+.contact__page__section .contact__form__area p {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -1744,81 +1906,92 @@ text-align: center;
     text-align: justify;
     color: #E9EBEE;
 }
-.contact__page__section .contact__form__area label{
+
+.contact__page__section .contact__form__area label {
     color: #E9EBEE;
 }
-.contact__page__section .contact__form__area input{
+
+.contact__page__section .contact__form__area input {
     background-color: transparent;
 }
 
-.contact__page__section .contact__form__area span{
+.contact__page__section .contact__form__area span {
     letter-spacing: 0.25px;
     text-transform: uppercase;
     color: var(--bs-blue-color-normal);
 }
-.contact__page__section .contact__form__area input::placeholder{
+
+.contact__page__section .contact__form__area input::placeholder {
     color: #A8A8A8;
 }
-.contact__page__section .contact__form__area textarea{
+
+.contact__page__section .contact__form__area textarea {
     background-color: transparent;
 
 }
-.contact__page__section .contact__form__area textarea::placeholder{
+
+.contact__page__section .contact__form__area textarea::placeholder {
     color: #A8A8A8;
 }
-.contact__page__section .contact__form__area .btn__layout1{
+
+.contact__page__section .contact__form__area .btn__layout1 {
     width: 100%;
     height: 100%;
     border-radius: 8px;
 }
+
 /* --------------------------------------------------- */
-  /* contact__page__section code ends here */
+/* contact__page__section code ends here */
 /* --------------------------------------------------*/
 
 
 /* --------------------------------------------------- */
-  /* about__us__section code starts here */
+/* about__us__section code starts here */
 /* --------------------------------------------------*/
 
-.about__us__section .about__us__images__area .image__style1{
+.about__us__section .about__us__images__area .image__style1 {
     margin-top: 70px;
 
-}     
-.about__us__section .about__us__images__area .image__style2{
+}
+
+.about__us__section .about__us__images__area .image__style2 {
     margin-top: 130px;
-}     
-.about__us__section .about__us__images__area .image__style3{
+}
+
+.about__us__section .about__us__images__area .image__style3 {
     margin-top: 104px;
-}     
-.about__us__section .about__us__images__area .image__style4{
+}
+
+.about__us__section .about__us__images__area .image__style4 {
     margin-top: 17px;
-}     
+}
 
 
-.about__us__section .about__us__code__heading h1{
+.about__us__section .about__us__code__heading h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 81px;
-    color:var(--bs-blue-color-normal)    
+    color: var(--bs-blue-color-normal)
 }
 
-.about__us__design__section .about__us__design__area{
-    background:var(--bs-blue-color-normal);
+.about__us__design__section .about__us__design__area {
+    background: var(--bs-blue-color-normal);
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     border-radius: 64px;
 }
 
-.about__us__design__section .about__us__design__area h3{
+.about__us__design__section .about__us__design__area h3 {
     font-style: normal;
     font-weight: 800;
     font-size: 32px;
     line-height: 40px;
     color: var(--bs-orange-dark-normal);
 }
-.about__us__design__section .about__us__design__area p{
+
+.about__us__design__section .about__us__design__area p {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -1827,7 +2000,7 @@ text-align: center;
     color: var(--bs-blue-surface-white);
 }
 
-.about__us__design__section .about__us__design__image{
+.about__us__design__section .about__us__design__image {
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -1837,23 +2010,89 @@ text-align: center;
 
 
 /* --------------------------------------------------- */
-  /* about__us__section code ends here */
+/* about__us__section code ends here */
 /* --------------------------------------------------*/
+/* --------------------------------------------------- */
+/* Product__detail__page code starts here */
+/* --------------------------------------------------*/
+/* --------------------------------------------------*/
+.card {
+    border: none;
+    overflow: hidden
+}
+
+.thumbnail_images ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+}
+
+.thumbnail_images ul li {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #eee;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.thumbnail_images ul li:hover {
+    border: 2px solid #000
+}
+
+.main_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    height: 400px;
+    width: 100%;
+    overflow: hidden
+}
+.product__detail__area .main_image img{
+    border: 9px solid #BFC5DF;
+    border-radius: 64px;
+}
+.product__detail__area .product__title__area .frame2_button{
+    background: #8CC63F;
+    border-radius: 0 12px;
+}
+
+.product__detail__area .product__title__area .product__title li{
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.product__detail__area .our__forms #home{
+    border-radius: 28px;
+}
+/* --------------------------------------------------- */
+/* Product__detail__page code ends here */
+/* --------------------------------------------------*/
+
+
+
 
 /* -------------------------------- */
 /* ---------------------------- */
-     /* Footer Code starts */
+/* Footer Code starts */
 /* ----------------------------*/
 
 
-.footer__section .footer__section__area{
+.footer__section .footer__section__area {
     margin: 120px 135px;
 }
-.footer__section{
+
+.footer__section {
     background: #E0E3F0
 }
 
-.footer__logo__text{
+.footer__logo__text {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 500;
@@ -1862,7 +2101,8 @@ text-align: center;
     text-align: justify;
     color: var(--bs-blue-footer-text-color);
 }
-.footer__area{
+
+.footer__area {
     font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 700;
@@ -1874,11 +2114,12 @@ text-align: center;
 
 
 
-.footer__items__area__payment__method{   
+.footer__items__area__payment__method {
     text-align: center;
-    display: flex!important;
+    display: flex !important;
 }
-.footer__items__area__links{
+
+.footer__items__area__links {
     text-decoration: none;
     font-family: 'Cabinet Grotesk';
     font-style: normal;
@@ -1888,21 +2129,22 @@ text-align: center;
     line-height: 20px;
     color: var(--bs-blue-footer-text-color);
 }
-.footer__items__area__links:hover{
-    color:var(--bs-blue-color-dark-hover)
+
+.footer__items__area__links:hover {
+    color: var(--bs-blue-color-dark-hover)
 }
-.footer__list__style{
+
+.footer__list__style {
     list-style-type: none;
 }
-.footer__place{
+
+.footer__place {
     text-align: left;
 }
 
 
-.footer__section .footer__place .footer__area__image img{
-
-}
+.footer__section .footer__place .footer__area__image img {}
 
 /* ---------------------------- */
-  /* Footer Code ends here */
+/* Footer Code ends here */
 /* ----------------------------*/

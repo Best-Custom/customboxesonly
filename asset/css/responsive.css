@@ -989,6 +989,9 @@
     .button__slider{
         display: none !important;
     }
+    .product__detail__area .product__title__area .product__title ul{
+        display: flex;
+    }
    
 }
 

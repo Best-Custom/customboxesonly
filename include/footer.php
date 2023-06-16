@@ -59,12 +59,8 @@
 <script src="asset/js/jquery-3.7.0.js"></script>
 
 
-<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js">
-</script>
- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
-   </script>
-
-   <script src="asset/js/custom.js"></script>
-
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+<script src="asset/js/custom.js"></script>
 </body>
 </html>
