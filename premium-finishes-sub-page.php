@@ -21,7 +21,7 @@
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <img src="asset/images/premium__finishes/metallic_folling_img.png" class="img-fluid" alt="metallic_folling_img">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-3">
                 <h1>Metallic Foiling </h1>
                 <p>we are truly passionate about creating and printing beautiful luxury packaging so whatever your design idea, complex or simple we want to help you and with so many different paper boards and print finishes why not try something new, we can help and advise you.
                     it’s our aim to make you standout, to make you be remembered; all that is possible with our bespoke luxury printed packaging. each order is given due care and attention from our craftsmen to ensure superior quality, expert finish and maximum impact.</p>

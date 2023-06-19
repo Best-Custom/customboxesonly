@@ -1685,8 +1685,6 @@ input[type="text"]::-webkit-input-placeholder {
     background-size: cover;
     object-fit: cover;
     border-radius: 32PX;
-    margin-right: 0px;
-    margin-left: 0px;
     padding: 100px 200px;
 }
 
