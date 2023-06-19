@@ -39,7 +39,7 @@
                 <div class="row header__rectangle align-items-center">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand w-50" href="#">
+                        <a class="navbar-brand w-50" href="index.php">
                             <img src="asset/images/logo_text_black.png" class="img-fluid"  alt="" srcset="">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="header__items__area__links" aria-current="page" href="#">Home</a>
+                                    <a class="header__items__area__links" aria-current="page" href="index.php">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                         <a class="header__items__area__links dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
@@ -119,10 +119,10 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="header__items__area__links" aria-current="page" href="#">About</a>
+                                    <a class="header__items__area__links" aria-current="page" href="about-us.php">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="header__items__area__links m-0" aria-current="page" href="#">Blog</a>
+                                    <a class="header__items__area__links m-0" aria-current="page" href="blog-page.php">Blog</a>
                                 </li>
                             </ul>
                             <form class="d-flex">

@@ -415,7 +415,7 @@
                     <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specifi.</p>
                 </div>
                 <div class="col-6 text-end">
-                    <a href="#">
+                    <a href="reviews.php">
                         <button class="btn__layout1"><span>View All Reviews</span></button>
                     </a>
                 </div>

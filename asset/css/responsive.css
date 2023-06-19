@@ -133,6 +133,21 @@
         line-height: 15px;
         text-align: justify;
     }
+
+    /* ---------------------------- */
+  /*  Premium-finishes-sub-page Metallic_Foaling  section  Code starts */
+  /* ----------------------------*/
+  .metallic_foaling_section {
+    height: 242px;
+    padding: 52px;
+  }
+  .metallic_foaling_section h1 {
+    font-size: 23px !important;
+  }
+  .metallic_foaling_section p {
+    font-size: 16px !important;
+  }
+
 }
 
 
@@ -281,6 +296,68 @@
         line-height: 17px;
         text-align: justify;
     }
+    .sample__kit__section .sample__kit__heading h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .sample__kit__section .sample__kit__heading p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .sample__kit__heading{
+        padding: 1rem!important;
+    }
+    .sample__kit__img{
+        padding: 1rem!important;
+    }
+    .sample__kit__img{
+        padding: 1rem!important;
+    }
+    .sample_kit__btn{
+        display: none;
+    }
+    .premium__finishes__section .premium__finishes__left__area h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .premium__finishes__section .premium__finishes__left__area p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    
+    }
+    .premium__finishes__section .premium__finishes__left__area{
+        width: 375px;
+        height: 375px;
+    }
+
+    /* ---------------------------- */
+  /*  Premium-finishes-sub-page Metallic_Foaling  section  Code starts */
+  /* ----------------------------*/
+  .metallic_foaling_section {
+    height: 242px;
+    padding: 52px;
+  }
+  .metallic_foaling_section h1 {
+    font-size: 23px !important;
+  }
+  .metallic_foaling_section p {
+    font-size: 16px !important;
+  }
+
+  .premium__finishes__section .premium__finishes__left__area .premium__finishes__heading {
+    padding: 15rem 1rem 1rem 1rem;
+}
+
+
 }
 
 
@@ -356,6 +433,24 @@
         padding: 0 20px;
         padding-top: 25px;
     }
+    .metallic_foaling_section {
+        height: 83px;
+        border-radius: 16px;
+        padding: 0px;
+      }
+      #metallic_foaling_textarea{
+        padding: 1rem!important;
+      }
+      .metallic_foaling_section h1{
+        font-size: 16px !important;
+        margin-top: 0px !important ;
+        line-height:0px !important;
+      }
+      .metallic_foaling_section p{
+        font-size: 12px !important;
+        margin-top: 0px !important;
+        line-height: 16px !important;
+      }
 }
 @media (min-width: 500px) and (max-width:682px){
     .our__forms .nav .nav-item button {
@@ -966,6 +1061,64 @@
     .about__us__design__section .about__us__design__area{
         padding: 2rem!important;
     }
+
+    .sample__kit__section .sample__kit__heading h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .sample__kit__section .sample__kit__heading p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+    }
+    .sample__kit__heading{
+        padding: 1rem!important;
+    }
+    .sample__kit__section .sample__kit__heading .frame2_button span{
+        font-size: 10px!important;
+    }
+
+    .premium__finishes__section .premium__finishes__left__area h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .premium__finishes__section .premium__finishes__left__area p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .premium__finishes__section .premium__finishes__left__area .frame2_button{
+        width: 116px;
+        height: 32px;
+    }
+    .premium__finishes__section .premium__finishes__left__area .frame2_button span{
+        font-size: 10px;
+        line-height: 15px;
+    
+    }
+    .premium__finishes__section .premium__finishes__left__area{
+        width: 375px;
+        height: 375px;
+    }
+
+    .premium__finishes__section .premium__finishes__left__area .premium__finishes__heading {
+        padding: 15rem 1rem 1rem 1rem;
+    }
+    .premium__finishes_img1{
+        margin-top: 10px;
+    }
+    .premium__finishes_img2{
+        margin-top: 10px!important;
+
+    }
+    
     
 }
 @media (max-width: 992px){

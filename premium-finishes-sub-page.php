@@ -1,90 +1,115 @@
 <?php include('include/header.php') ?>
 
-<!-- our__portfolio section code starts here -->
-<section class="portfolio__section">
+<!-- Metallic_Foaling Header section code starts here -->
+<section class="metallic_foaling_section">
     <div class="container">
         <div class="row">
-            <div class="portfolio__section__area text-white">
-                <h1 class="text-white text-center">Custom Boxes Only Portfolio</h1>
-                <p class="text-white text-center">Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs.</p>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id='metallic_foaling_textarea'>
+                <h1 class="text-white text-left">Metallic Foaling</h1>
+                <p>Unlock the potential of your products with our unrivaled packaging solutions tailored to your industry and specific product needs. </p>
             </div>
         </div>
     </div>
-
 </section>
-<!-- our__portfolio section code ends here -->
+<!-- Metallic_Foaling Header section code ends here -->
+
+<!-- main__menu__text section code starts here -->
+<section class="main__menu__text">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="asset/images/premium__finishes/metallic_folling_img.png" class="img-fluid" alt="metallic_folling_img">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <h1>Metallic Foiling </h1>
+                <p>we are truly passionate about creating and printing beautiful luxury packaging so whatever your design idea, complex or simple we want to help you and with so many different paper boards and print finishes why not try something new, we can help and advise you.
+                    it’s our aim to make you standout, to make you be remembered; all that is possible with our bespoke luxury printed packaging. each order is given due care and attention from our craftsmen to ensure superior quality, expert finish and maximum impact.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- main__menu__text section code ends here -->
+
 
 <!-- Our Range code starts here-->
 <section class="our__range__section">
     <div class="container">
-       <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+        <div class="row">
+            <h1>Explore Our Range</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <span class="product__tag eco-friendly">Eco Friendly</span>
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0 m-0">
-                <div class="our__range__item">
-                    <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
                 </div>
-                <h4>Cardboard Boxes</h4>
             </div>
-       </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="item">
+                    <div class="our__range__item metallic_foaling_product_section">
+                        <span class="product__tag">New</span>
+                    </div>
+                    <h4>Metallic Foiling</h4>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <!-- Our Range Code ends here-->
-
-<!-- Our Range code starts here-->
-<section class="our__range__section">
-    <div class="container">
-       <div class="row">
-            <h1>Our Most Popular Products</h1>
-            <div class="owl-carousel owl-theme" id="portfolio__range">
-                <div class="item">
-                    <div class="our__range__item">
-                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
-                    </div>
-                    <h4>Cardboard Boxes</h4>
-                </div>
-                <div class="item">
-                    <div class="our__range__item">
-                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
-                    </div>
-                    <h4>Cardboard Boxes</h4>
-                </div>
-                <div class="item">
-                    <div class="our__range__item">
-                        <span class="product__tag eco-friendly">Eco Friendly</span>
-                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
-                    </div>
-                    <h4>Cardboard Boxes</h4>
-                </div>
-                <div class="item">
-                    <div class="our__range__item">
-                        <img src="asset/images/our__range_product.png" class="img-fluid" alt="image">
-                    </div>
-                    <h4>Cardboard Boxes</h4>
-                </div>
-            </div>
-       </div>
-    </div>
-</section>
-<!-- Our Range Code ends here-->
-
 
 <!-- our__forms Code starts here-->
 
@@ -213,7 +238,6 @@
 </section>
 
 <!-- our__forms Code ends here-->
-
 <!-- our__journey section Code starts here-->
 
 <section class="our__journey__section">
@@ -251,13 +275,11 @@
     </div>
 </section>
 
-<!-- our__journey section Code ends here-->
-
-
 <!-- contact__us section Code starts here-->
 
 <?php include('components/contact-us.php') ?>
 
 <!-- contact__us section Code ends here-->
+
 
 <?php include('include/footer.php') ?>

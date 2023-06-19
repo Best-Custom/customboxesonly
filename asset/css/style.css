@@ -2071,9 +2071,209 @@ input[type="text"]::-webkit-input-placeholder {
 .product__detail__area .our__forms #home{
     border-radius: 28px;
 }
+
+.sample__kit__section{
+    background: var(--bs-blue-dark-light-hover);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 28px;
+}
+
+.sample__kit__section .sample__kit__heading h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    color: var(--bs-blue-color-normal);
+    
+}
+.sample__kit__section .sample__kit__heading p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    color: var(--bs-blue-color-normal);
+}
+.sample__kit__section .sample__kit__heading .frame2_button{
+    background: #FF971A;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+.sample__kit__section .sample__kit__heading .frame2_button span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+
+
 /* --------------------------------------------------- */
 /* Product__detail__page code ends here */
 /* --------------------------------------------------*/
+
+/* --------------------------------------------------- */
+/* premium__finishes__section code starts here */
+/* --------------------------------------------------*/
+
+.premium__finishes__section{
+
+}
+.premium__finishes__section .premium__finishes__left__area{
+    background-image: linear-gradient( to bottom, rgba(196, 196, 196, 0), #161F44 100%) , url(../images/premium__finishes/premium__finishes__img1.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 612px;
+    height: 612px;
+    border-radius: 28px;
+    /* background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #161F44 100%); */
+}
+.premium__finishes__section .premium__finishes__left__area h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: var(--bs-blue-surface-white);
+}
+.premium__finishes__section .premium__finishes__left__area p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--bs-blue-surface-white);
+
+}
+.premium__finishes__section .premium__finishes__left__area .frame2_button{
+    background: #FF971A;
+    border-radius: 8px;
+    width: 154px;
+    height: 32px;
+}
+.premium__finishes__section .premium__finishes__left__area .premium__finishes__heading{
+    padding: 28rem 2rem 2rem 2rem;
+}
+
+.premium__finishes__section .premium__finishes__left__area .frame2_button span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: var(--bs-blue-color-normal);
+
+}
+.premium__finishes__section .premium__finishes_img1 {
+    background-image: linear-gradient( to bottom, rgba(196, 196, 196, 0), #161F44 100%) , url(../images/premium__finishes/premium__finishes__image3.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 612px;
+    height: 306px;
+    border-radius: 28px;
+}
+.premium__finishes__section  .premium__finishes_img2 {
+    background-image: linear-gradient( to bottom, rgba(196, 196, 196, 0), #161F44 100%) , url(../images/premium__finishes/premium__finishes__image2.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 612px;
+    height: 306px;
+    border-radius: 28px;
+}
+
+.premium__finishes__section .premium__finishes_img1 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: var(--bs-blue-surface-white);
+}
+.premium__finishes__section .premium__finishes_img1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--bs-blue-surface-white);
+}
+
+.premium__finishes__section .premium__finishes_img2 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: var(--bs-blue-surface-white);
+}
+.premium__finishes__section .premium__finishes_img2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--bs-blue-surface-white);
+}
+
+.premium__finishes__section #right__section  .premium__finishes__heading{
+    padding: 8rem 1rem 1rem 1rem;
+
+}
+
+
+/* --------------------------------------------------- */
+/* premium__finishes__section code ends here */
+/* --------------------------------------------------*/
+
+
+
+/* -------------------------------- */
+/* ---------------------------- */
+/*  Premium-finishes-sub-page Metallic_Foaling  section  Code starts */
+/* ----------------------------*/
+.metallic_foaling_section{
+    /* background: url(../images/premium__finishes/primum-sub-page-img.png); */
+    background: url(../images/premium__finishes/primum-sub-page-img.png);
+    height: 395px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 64px;
+    padding: 138px;
+}
+.metallic_foaling_section h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.metallic_foaling_section p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: right;
+    color:#FFFFFF;
+    margin-top: 20px;
+  }
+
+  .metallic_foaling_product_section{
+    background: url(../images/premium__finishes/metallic-foiling-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    object-fit: cover;
+    width: 276px;
+    height: 370px;
+  }
+
+/* --------------------------------------------------- */
+/*  Premium-finishes-sub-page Metallic_Foaling code ends here */
+/* --------------------------------------------------*/
+
 
 
 

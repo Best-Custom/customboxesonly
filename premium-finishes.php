@@ -63,78 +63,93 @@
 
 <!-- packaging__choose__us section code ends here -->
 
-<!--Finish Styles Code starts here-->
 
-<section class="finish__style__section">
+<!-- premium finishes code starts here -->
+<section class="premium__finishes__section">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-3">
-                <div class="finish__style__area row h-100">
-                      <div class="d-table-cell" style="vertical-align:middle">
-                            <h2 class="finish__style__title mt-3 text-white">Holographic Foiling</h2>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="bg-image">
+                    <div class="premium__finishes__left__area w-100">
+                        <div class="premium__finishes__heading">
+                            <h3>Metallic Foiling</h3>
+                            <p>luxurious and textured premium papers from around the world</p>
+                            <a href="#">    
+                                <button class="frame2_button"><span>View Collection</span></button>
+                            </a>
                         </div>
-                    <img class="img-fluid w-100" src="asset/images/finish__style/finish__style__product1.png" alt="">
+                    </div>
                 </div>
+              
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 mt-3">
-                <div class="finish__style__area__horizental">
-                    <div class="d-table w-100">
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <h2 class="finish__style__title mt-xs-0 mt-sm-0 mt-md-0">Gold Foil</h2>
-                        </div>
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <img class="img-fluid w-100" src="asset/images/finish__style/finish__style_product2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="finish__style__area__horizental mb-0">
-                    <div class="d-table w-100">
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <h2 class="finish__style__title mt-xs-0 mt-sm-0 mt-md-0">Debossing</h2>
-                        </div>
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <img class="img-fluid w-100" src="asset/images/finish__style/finish__style__product3.png" alt="">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row" id="right__section">
+                    <div class="col-12 p-0">
+                        <div class="premium__finishes_img1 w-100">
+                            <div class="premium__finishes__heading">
+                                <h3>Metallic Foiling</h3>
+                                <p>luxurious and textured premium papers from around the world</p>
+                                <a href="#">    
+                                    <button class="frame2_button"><span>View Collection</span></button>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="premium__finishes_img2 w-100 mt-1">
+                        <div class="premium__finishes__heading">
+                                <h3>Metallic Foiling</h3>
+                                <p>luxurious and textured premium papers from around the world</p>
+                                <a href="#">    
+                                    <button class="frame2_button"><span>View Collection</span></button>
+                                </a>
+                            </div>
+                    </div>
+
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 mt-3">
-                <div class="finish__style__area__horizental">
-                    <div class="d-table w-100">
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <h2 class="finish__style__title mt-xs-0 mt-sm-0 mt-md-0">Gold Foil</h2>
-                        </div>
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <img class="img-fluid w-100" src="asset/images/finish__style/finish__style_product2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="finish__style__area__horizental mb-0">
-                    <div class="d-table w-100">
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <h2 class="finish__style__title mt-xs-0 mt-sm-0 mt-md-0">Debossing</h2>
-                        </div>
-                        <div class="d-table-cell" style="vertical-align:middle">
-                            <img class="img-fluid w-100" src="asset/images/finish__style/finish__style__product3.png" alt="">
+        </div>
+        <div class="row mt-3">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="bg-image">
+                    <div class="premium__finishes__left__area w-100">
+                        <div class="premium__finishes__heading">
+                            <h3>Metallic Foiling</h3>
+                            <p>luxurious and textured premium papers from around the world</p>
+                            <a href="#">    
+                                <button class="frame2_button"><span>View Collection</span></button>
+                            </a>
                         </div>
                     </div>
                 </div>
+              
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-3">
-                <div class="finish__style__area row h-100">
-                      <div class="d-table-cell" style="vertical-align:middle">
-                            <h2 class="finish__style__title mt-3 text-white">Holographic Foiling</h2>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row" id="right__section">
+                    <div class="col-12 p-0">
+                        <div class="premium__finishes_img1 w-100">
+                            <div class="premium__finishes__heading">
+                                <h3>Metallic Foiling</h3>
+                                <p>luxurious and textured premium papers from around the world</p>
+                                <a href="#">    
+                                    <button class="frame2_button"><span>View Collection</span></button>
+                                </a>
+                            </div>
                         </div>
-                    <img class="img-fluid w-100" src="asset/images/finish__style/finish__style__product1.png" alt="">
-                </div>
+                    </div>
+                    <div class="premium__finishes_img2 w-100 mt-1">
+                        <div class="premium__finishes__heading">
+                                <h3>Metallic Foiling</h3>
+                                <p>luxurious and textured premium papers from around the world</p>
+                                <a href="#">    
+                                    <button class="frame2_button"><span>View Collection</span></button>
+                                </a>
+                            </div>
+                    </div>
+
             </div>
         </div>
     </div>
-
 </section>
-
-
-<!--Finish Styles Code ends here-->
+<!-- premium finishes code ends here -->
 
 
 <!-- our__forms Code starts here-->
