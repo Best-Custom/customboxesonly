@@ -584,7 +584,14 @@ width: 1268px; */
 .our__range__section button {
     border: #f0f8ff00;
 }
-
+.main__menu_section__button2{
+    border: 1px solid white!important; 
+    color: white;
+    border-radius: 12px;
+}
+.main__menu_section__button2 span{
+    color: white;
+}
 .our__range__section .toggle__area {
     border-radius: 32px;
     background: #E9EBEE;
@@ -600,10 +607,32 @@ width: 1268px; */
     border: 8px solid var(--bs-blue-dark-light-active);
     border-radius: 28px;
 }
+.our__range__section .our__range__contact {
+    
+    border-radius: 32px;
+    background-color: var(--bs-blue-dark-darker);
+}
+.our__range__section .our__range__contact h4 {
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.our__range__section .our__range__contact #img {
+    width: -webkit-fill-available;
+}
+.our__range__section .our__range__contact span {
+    
+}
+.our__range__section .our__range__contact .btn__layout1{
+    border-radius: 8px;
+    margin-top: 13px;
+    padding: 8px 16px;
+    width: 100%;
+    height: auto;
+}
 
 .our__range__section h4 {
     margin-top: 16px;
-    font-family: 'Cabinet Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -616,6 +645,9 @@ width: 1268px; */
 
     background: #8CC63F;
 
+}
+.our__range__section .our__range__item img{
+    width: -webkit-fill-available;
 }
 
 .our__range__section .our__range__item .best-selling {
@@ -767,6 +799,9 @@ input[type="text"]::-webkit-input-placeholder {
     width: 362px;
     height: 48px;
     margin: 50px;
+}
+.our__forms .tab-content #quick_quote span{
+    color: var(--bs-blue-color-normal);
 }
 
 .our__forms .tab-content .btn__layout1 a {

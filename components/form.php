@@ -73,7 +73,7 @@
                             </div>
                         </div> 
                         <div class="row btn__layout1__positioning">
-                            <button class="btn__layout1">
+                            <button class="btn__layout1" id="quick_quote">
                                 <a href="#">
                                     <span>GET ME THE QUOTE</span> 
                                     <img src="asset/images/our__forms/our__forms__vector.png" alt="">
