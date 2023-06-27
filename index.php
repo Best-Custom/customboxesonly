@@ -73,6 +73,9 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-0">
                     <div class="main__menu__right__area">
                         <img src="asset/images/main_menu_product_image.png" class="img-fluid" alt="">
+                        <!-- <a href="#">    
+                            <button href="#" class="frame2_button m-3"><span>View Product <img src="asset/images/view__product__vector.png" alt=""> </span></button>
+                        </a> -->
                     </div>
                 </div>
             </div>

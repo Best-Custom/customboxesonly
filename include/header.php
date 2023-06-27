@@ -30,14 +30,14 @@
                     </div>
                     <div class="col-md-6 text-end">
                     <a href="#">    
-                        <button class="frame2_button m-3">Get A Quote</button>
+                        <button class="frame2_button m-3"><span>Get A Quote</span></button>
                     </a>
                     </div>
                 </div>
             </div>
             <div class="col-12">
                 <div class="row header__rectangle align-items-center">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-light" style="z-index: 9999;">
                     <div class="container-fluid">
                         <a class="navbar-brand w-50" href="index.php">
                             <img src="asset/images/logo_text_black.png" class="img-fluid"  alt="" srcset="">
@@ -126,10 +126,13 @@
                                 </li>
                             </ul>
                             <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                 <button class="btn" type="submit">
-                                    <img src="asset/images/search__icon__header.png" alt="" srcset="">
-                                </button>
+                                </button> -->
+
+                                <i id='toggle-search' class='icon ion-ios-search'><img src="asset/images/search__icon__header.png" alt="" srcset=""></i>
+                                <input style='display:none;' id='searchBar'   
+                                    name='search' class="form-control" type='search' placeholder='Search'>
                             </form>
                         </div>
                     </div>

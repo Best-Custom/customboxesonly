@@ -211,3 +211,11 @@ function changeImage(element) {
 
 }
 // product__detail__page code ends here
+
+
+
+// Search Bar & Toggle
+$("#toggle-search").on("click", function () {
+    $("#searchBar").toggle("display: inline-block");
+  });
+  

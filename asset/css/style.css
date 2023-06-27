@@ -183,6 +183,7 @@ section {
 
 
 
+
 .frame2_button {
 
     /* Auto layout */
@@ -272,10 +273,19 @@ width: 1268px; */
     padding: 20px;
 }
 
-
+.header__section .frame2_button span{
+    color: var(--primary-color, #304598);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
 /* ---------------------------- */
 /* Header Code ends here */
 /* ----------------------------*/
+
+
+
 
 
 
@@ -2381,3 +2391,75 @@ input[type="text"]::-webkit-input-placeholder {
 /* ---------------------------- */
 /* Footer Code ends here */
 /* ----------------------------*/
+
+
+
+/* ---------------------------- */
+/* Search  Code starts here */
+/* ----------------------------*/
+
+
+::-webkit-input-placeholder {
+    color: rgba(#efefef, 0.2);
+  }
+  :-moz-placeholder {
+    color: rgba(#efefef, 0.2);
+  }
+  ::-moz-placeholder {
+    color: rgba(#efefef, 0.2);
+  }
+  :-ms-input-placeholder {
+    color: rgba(#efefef, 0.2);
+  }
+  header {
+    padding: 1em 0;
+    color: rgba(#efefef, 0.3);
+    font-size: 18pt;
+    width: 100%;
+    border-bottom: 3px solid #d54f2a;
+    .ion-navicon,
+    #toggle-search {
+      -webkit-transition: all 0.6s ease;
+      -moz-transition: all 0.6s ease;
+      transition: all 0.6s ease;
+      &:hover {
+        color: rgba(#efefef, 1);
+      }
+    }
+    .ion-navicon {
+      float: left;
+    }
+    span {
+      font-weight: 100;
+      margin-left: 0;
+      @media screen and (min-width: 320px) {
+        margin-left: 10px;
+      }
+    }
+    #searchBar {
+      background-color: #2f2f2f;
+      border: none;
+      color: rgba(#efefef, 0.5);
+      font-size: 12pt;
+      font-weight: 100;
+      margin-right: 10px;
+      padding: 0.25em 0.75em;
+      float: right;
+      max-width: 130px;
+      text-align: right;
+      -webkit-border-radius: 28px;
+      -moz-border-radius: 28px;
+      border-radius: 28px;
+    }
+    #toggle-search {
+      float: right;
+    }
+  }
+  
+
+/* ---------------------------- */
+/* Search  Code ends here */
+/* ----------------------------*/
+
+
+
